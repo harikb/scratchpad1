@@ -7,8 +7,9 @@ function processOneFile(filename)
 
     selfid = myid()
     
-    # in a multi-process setup, this function should not be called for parent (id=1)
+    # in a single-process setup, this function will be called for parent (id=1)
     assert(jump == 1 || selfid != 1)
+
     f = open(filename);
     offset = np == 1 ? selfid : selfid - 1
     lnum = 0
