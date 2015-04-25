@@ -1,0 +1,2398 @@
+Started 1 processes
+20382 ./client.jl; _start; line: 354
+ 20382 ./client.jl; process_options; line: 285
+  20382 loading.jl; include_from_node1; line: 128
+   20382 ./boot.jl; include; line: 245
+    20382 no file; anonymous; line: 14
+     19    ./inference.jl; typeinf_ext; line: 1216
+      5 ./inference.jl; typeinf; line: 1409
+       3 ./inference.jl; abstract_interpret; line: 1090
+        3 ./inference.jl; abstract_eval; line: 935
+         3 ./inference.jl; abstract_eval_call; line: 903
+          3 ./inference.jl; abstract_call; line: 819
+           3 ./inference.jl; abstract_call_gf; line: 726
+            1 ./inference.jl; typeinf; line: 1242
+            2 ./inference.jl; typeinf; line: 1472
+             2 ./inference.jl; abstract_eval_arg; line: 866
+              2 ./inference.jl; abstract_eval; line: 935
+               2 ./inference.jl; abstract_eval_call; line: 903
+                2 ./inference.jl; abstract_call; line: 809
+                 2 ./inference.jl; abstract_call_gf; line: 726
+                  2 ./inference.jl; typeinf; line: 1472
+                   2 ./inference.jl; abstract_eval_arg; line: 866
+                    2 ./inference.jl; abstract_eval; line: 935
+                     2 ./inference.jl; abstract_eval_call; line: 903
+                      2 ./inference.jl; abstract_call; line: 809
+                       2 ./inference.jl; abstract_call_gf; line: 726
+                        1 ./inference.jl; typeinf; line: 1472
+                         1 ./inference.jl; abstract_eval_arg; line: 866
+                          1 ./inference.jl; abstract_eval; line: 946
+                           1 ./inference.jl; abstract_eval; line: 935
+                            1 ./inference.jl; abstract_eval_call; line: 903
+                             1 ./inference.jl; abstract_call; line: 819
+                              1 ./inference.jl; abstract_call_gf; line: 678
+                               1 ...lection.jl; _methods; line: 116
+                                1 ...lection.jl; _methods; line: 116
+                                 1 ...lection.jl; _methods; line: 99
+                        1 ./inference.jl; typeinf; line: 1550
+       2 ./inference.jl; abstract_interpret; line: 1107
+        2 ./inference.jl; abstract_eval; line: 935
+         1 ./inference.jl; abstract_eval_call; line: 878
+          1 ./inference.jl; abstract_eval_arg; line: 866
+           1 ./inference.jl; abstract_eval; line: 935
+            1 ./inference.jl; abstract_eval_call; line: 903
+             1 ./inference.jl; abstract_call; line: 819
+              1 ./inference.jl; abstract_call_gf; line: 685
+         1 ./inference.jl; abstract_eval_call; line: 903
+          1 ./inference.jl; abstract_call; line: 819
+           1 ./inference.jl; abstract_call_gf; line: 678
+            1 ./reflection.jl; _methods; line: 116
+             1 ./reflection.jl; _methods; line: 116
+              1 ./reflection.jl; _methods; line: 99
+      2 ./inference.jl; typeinf; line: 1512
+       2 ./inference.jl; stchanged; line: 1181
+      2 ./inference.jl; typeinf; line: 1514
+       1 ./inference.jl; stupdate; line: 1167
+       1 ./inference.jl; stupdate; line: 1168
+      5 ./inference.jl; typeinf; line: 1544
+       5 ./inference.jl; inlining_pass; line: 2553
+        4 ./inference.jl; inlining_pass; line: 2590
+         2 ./inference.jl; inlining_pass; line: 2590
+          1 ./inference.jl; inlining_pass; line: 2607
+           1 ./inference.jl; effect_free; line: 1961
+            1 ./inference.jl; is_known_call_p; line: 2795
+          1 ./inference.jl; inlining_pass; line: 2656
+           1 ./inference.jl; inlineable; line: 2271
+            1 ./inference.jl; resolve_globals; line: 1839
+             1 ./inference.jl; resolve_globals; line: 1839
+              1 ./inference.jl; resolve_globals; line: 1839
+               1 ./inference.jl; resolve_globals; line: 1839
+                1 ./inference.jl; resolve_globals; line: 1804
+                 1 ./inference.jl; resolve_relative; line: 1777
+         2 ./inference.jl; inlining_pass; line: 2656
+          1 ./inference.jl; inlineable; line: 2076
+           1 ./reflection.jl; _methods; line: 116
+            1 ./reflection.jl; _methods; line: 99
+          1 ./inference.jl; inlineable; line: 2136
+           1 ./inference.jl; typeinf; line: 1242
+        1 ./inference.jl; inlining_pass; line: 2656
+         1 ./inference.jl; inlineable; line: 2142
+      5 ./inference.jl; typeinf; line: 1548
+       2 ./inference.jl; tuple_elim_pass; line: 2981
+        2 ./inference.jl; occurs_outside_tupleref; line: 2915
+         2 ./inference.jl; occurs_outside_tupleref; line: 2915
+          2 ./inference.jl; occurs_outside_tupleref; line: 2900
+           2 ./inference.jl; is_known_call; line: 2787
+            1 ./inference.jl; isconstantfunc; line: 556
+            1 ./inference.jl; isconstantfunc; line: 591
+             1 ./inference.jl; is_global; line: 58
+              1 ./inference.jl; contains_is; line: 49
+       3 ./inference.jl; tuple_elim_pass; line: 3005
+        3 ./inference.jl; replace_tupleref!; line: 3034
+         2 ./inference.jl; replace_tupleref!; line: 3016
+         1 ./inference.jl; replace_tupleref!; line: 3034
+          1 ./inference.jl; replace_tupleref!; line: 3016
+     1     ...a_test2_parallel.jl; processOneFile; line: 57
+     1     ...a_test2_parallel.jl; processOneFile; line: 60
+      1 printf.jl; handlenegative; line: 566
+     20341 ...a_test2_parallel.jl; processOneFile; line: 61
+      1     ...a_test2_parallel.jl; processOneLine; line: 38
+       1 ./string.jl; _split; line: 1312
+        1 ./string.jl; search; line: 192
+         1 ./reduce.jl; _mapreduce; line: 169
+      20320 ...a_test2_parallel.jl; processOneLine; line: 39
+       2     ...a_test2_parallel.jl; checkSegment; line: 10
+        1 ./string.jl; print_to_string; line: 24
+        1 ./string.jl; print_to_string; line: 26
+         1 ./string.jl; bytestring; line: 34
+       8     ...a_test2_parallel.jl; checkSegment; line: 12
+        2 string.jl; replace; line: 1396
+         2 string.jl; replace; line: 1395
+          1 string.jl; replace; line: 1375
+          1 string.jl; replace; line: 1392
+           1 ./string.jl; bytestring; line: 34
+       1     ...a_test2_parallel.jl; checkSegment; line: 13
+       20103 ...a_test2_parallel.jl; checkSegment; line: 14
+        19947 ...ts/src/Requests.jl; get; line: 582
+         19943 ...s/src/Requests.jl; get; line: 583
+          17    ...s/src/Requests.jl; do_request; line: 541
+           3 ./inference.jl; typeinf_ext; line: 1216
+            1 ./inference.jl; typeinf; line: 1409
+             1 ./inference.jl; abstract_interpret; line: 1107
+              1 ./inference.jl; abstract_eval; line: 935
+               1 ./inference.jl; abstract_eval_call; line: 878
+                1 ./inference.jl; abstract_eval_arg; line: 866
+                 1 ./inference.jl; abstract_eval; line: 935
+                  1 ./inference.jl; abstract_eval_call; line: 903
+                   1 ./inference.jl; abstract_call; line: 860
+                    1 ./inference.jl; builtin_tfunction; line: 541
+                     1 ./inference.jl; anonymous; line: 360
+            1 ./inference.jl; typeinf; line: 1544
+             1 ./inference.jl; inlining_pass; line: 2553
+              1 ./inference.jl; inlining_pass; line: 2590
+               1 ./inference.jl; inlining_pass; line: 2661
+                1 ./array.jl; append!; line: 479
+            1 ./inference.jl; typeinf; line: 1548
+             1 ./inference.jl; tuple_elim_pass; line: 2981
+              1 ./inference.jl; occurs_outside_tupleref; line: 2916
+           1 ...ts/src/Requests.jl; format_query_str; line: 242
+            1 ./ascii.jl; string; line: 0
+           1 ...ts/src/Requests.jl; format_query_str; line: 247
+            1 ./string.jl; chop; line: 1430
+             1 ./array.jl; getindex; line: 263
+          615   ...s/src/Requests.jl; do_request; line: 542
+           592 ./inference.jl; typeinf_ext; line: 1216
+            1   ./inference.jl; typeinf; line: 1298
+            591 ./inference.jl; typeinf; line: 1472
+             591 ./inference.jl; abstract_eval_arg; line: 866
+              591 ./inference.jl; abstract_eval; line: 935
+               591 ./inference.jl; abstract_eval_call; line: 903
+                591 ./inference.jl; abstract_call; line: 809
+                 2   ./inference.jl; abstract_call_gf; line: 678
+                  1 ./reflection.jl; _methods; line: 109
+                   1 ./reflection.jl; _methods; line: 109
+                    1 ./reflection.jl; _methods; line: 109
+                     1 ./reflection.jl; _methods; line: 116
+                      1 ./reflection.jl; _methods; line: 109
+                       1 ./reflection.jl; _methods; line: 109
+                        1 ./reflection.jl; _methods; line: 109
+                         1 ./reflection.jl; _methods; line: 109
+                          1 ./reflection.jl; _methods; line: 99
+                  1 ./reflection.jl; _methods; line: 116
+                   1 ./reflection.jl; _methods; line: 116
+                    1 ./reflection.jl; _methods; line: 116
+                     1 ./reflection.jl; _methods; line: 116
+                      1 ./reflection.jl; _methods; line: 109
+                       1 ./reflection.jl; _methods; line: 109
+                        1 ./reflection.jl; _methods; line: 109
+                         1 ./reflection.jl; _methods; line: 109
+                          1 ./reflection.jl; _methods; line: 99
+                 589 ./inference.jl; abstract_call_gf; line: 726
+                  2   ./inference.jl; typeinf; line: 1242
+                  249 ./inference.jl; typeinf; line: 1472
+                   249 ./inference.jl; abstract_eval_arg; line: 866
+                    5   ./inference.jl; abstract_eval; line: 939
+                     5 ./inference.jl; abstract_eval; line: 935
+                      5 ./inference.jl; abstract_eval_call; line: 903
+                       5 ./inference.jl; abstract_call; line: 819
+                        5 ./inference.jl; abstract_eval_constant; line: 1006
+                    244 ./inference.jl; abstract_eval; line: 946
+                     242 ./inference.jl; abstract_eval; line: 935
+                      1   ./inference.jl; abstract_eval_call; line: 877
+                       1 ./array.jl; getindex; line: 267
+                        1 ./array.jl; copy!; line: 54
+                         1 ./array.jl; unsafe_copy!; line: 40
+                      28  ./inference.jl; abstract_eval_call; line: 878
+                       28 ./inference.jl; abstract_eval_arg; line: 866
+                        28 ./inference.jl; abstract_eval; line: 935
+                         27 ./inference.jl; abstract_eval_call; line: 878
+                          27 ./inference.jl; abstract_eval_arg; line: 866
+                           1  ./inference.jl; abstract_eval; line: 919
+                            1 ./inference.jl; abstract_eval_symbol; line: 1061
+                             1 ./reduce.jl; _mapreduce; line: 166
+                           26 ./inference.jl; abstract_eval; line: 935
+                            26 ./inference.jl; abstract_eval_call; line: 903
+                             26 ./inference.jl; abstract_call; line: 819
+                              2  ...ference.jl; abstract_call_gf; line: 677
+                               2 ...ference.jl; anonymous; line: 615
+                                2 ./no file; anonymous; line: 618
+                              17 ...ference.jl; abstract_call_gf; line: 678
+                               17 ...lection.jl; _methods; line: 116
+                                17 ...ection.jl; _methods; line: 116
+                                 17 ...ection.jl; _methods; line: 99
+                              7  ...ference.jl; abstract_call_gf; line: 726
+                               7 ...ference.jl; typeinf; line: 1242
+                         1  ./inference.jl; abstract_eval_call; line: 903
+                          1 ./inference.jl; abstract_call; line: 818
+                           1 ./reflection.jl; isgeneric; line: 90
+                      1   ./inference.jl; abstract_eval_call; line: 883
+                       1 ./inference.jl; isconstantfunc; line: 555
+                        1 ./inference.jl; _basemod; line: 79
+                      212 ./inference.jl; abstract_eval_call; line: 903
+                       212 ./inference.jl; abstract_call; line: 819
+                        182 ./inference.jl; abstract_call_gf; line: 678
+                         181 ./reflection.jl; _methods; line: 116
+                          181 ...flection.jl; _methods; line: 116
+                           180 ...flection.jl; _methods; line: 99
+                           1   ...flection.jl; _methods; line: 119
+                            1 ./array.jl; append!; line: 477
+                        30  ./inference.jl; abstract_call_gf; line: 726
+                         28 ./inference.jl; typeinf; line: 1242
+                         1  ./inference.jl; typeinf; line: 1250
+                  1   ./inference.jl; typeinf; line: 1540
+                   1 ./inference.jl; type_annotate; line: 1686
+                    1 ./inference.jl; eval_annotate; line: 1658
+                     1 ./inference.jl; eval_annotate; line: 1658
+                      1 ./inference.jl; eval_annotate; line: 1658
+                       1 ./inference.jl; eval_annotate; line: 1605
+                  309 ./inference.jl; typeinf; line: 1544
+                   308 ./inference.jl; inlining_pass; line: 2553
+                    307 ./inference.jl; inlining_pass; line: 2590
+                     297 ./inference.jl; inlining_pass; line: 2590
+                      68  ./inference.jl; inlining_pass; line: 2590
+                       67 ./inference.jl; inlining_pass; line: 2590
+                        67 ./inference.jl; inlining_pass; line: 2656
+                         56 ./inference.jl; inlineable; line: 2076
+                          56 ./reflection.jl; _methods; line: 116
+                           56 ...flection.jl; _methods; line: 116
+                            56 ...flection.jl; _methods; line: 99
+                         8  ./inference.jl; inlineable; line: 2136
+                          8 ./inference.jl; typeinf; line: 1242
+                         3  ./inference.jl; inlineable; line: 2142
+                       1  ./inference.jl; inlining_pass; line: 2605
+                        1 ./array.jl; prepend!; line: 493
+                         1 ./array.jl; copy!; line: 54
+                          1 ./array.jl; unsafe_copy!; line: 44
+                      1   ./inference.jl; inlining_pass; line: 2629
+                       1 ./inference.jl; isconstantfunc; line: 556
+                        1 ./reflection.jl; isconst; line: 44
+                      8   ./inference.jl; inlining_pass; line: 2652
+                       1 ./array.jl; getindex; line: 263
+                       1 ./array.jl; getindex; line: 267
+                        1 ./array.jl; copy!; line: 54
+                         1 ./array.jl; unsafe_copy!; line: 40
+                       1 ./inference.jl; exprtype; line: 1876
+                       5 ./inference.jl; exprtype; line: 1879
+                        5 ./inference.jl; abstract_eval; line: 919
+                         1 ./inference.jl; abstract_eval_symbol; line: 1037
+                         4 ./inference.jl; abstract_eval_symbol; line: 1066
+                          4 ./inference.jl; abstract_eval_global; line: 1027
+                           4 ./inference.jl; abstract_eval_constant; line: 1006
+                      217 ./inference.jl; inlining_pass; line: 2656
+                       170 ./inference.jl; inlineable; line: 2076
+                        1   ./reflection.jl; _methods; line: 105
+                        169 ./reflection.jl; _methods; line: 116
+                         168 ./reflection.jl; _methods; line: 116
+                          167 ...flection.jl; _methods; line: 99
+                          1   ...flection.jl; _methods; line: 119
+                           1 ./array.jl; append!; line: 479
+                            1 ./array.jl; copy!; line: 54
+                             1 ./array.jl; unsafe_copy!; line: 40
+                       18  ./inference.jl; inlineable; line: 2136
+                        18 ./inference.jl; typeinf; line: 1242
+                       1   ./inference.jl; inlineable; line: 2141
+                       5   ./inference.jl; inlineable; line: 2142
+                       1   ./inference.jl; inlineable; line: 2164
+                        1 ./inference.jl; inline_worthy; line: 2509
+                         1 ./inference.jl; occurs_more; line: 1852
+                       1   ./inference.jl; inlineable; line: 2193
+                       1   ./inference.jl; inlineable; line: 2198
+                       1   ./inference.jl; inlineable; line: 2202
+                       2   ./inference.jl; inlineable; line: 2271
+                        2 ./inference.jl; resolve_globals; line: 1839
+                         2 ./inference.jl; resolve_globals; line: 1839
+                          1 ./inference.jl; resolve_globals; line: 1807
+                          1 ./inference.jl; resolve_globals; line: 1839
+                           1 ./inference.jl; resolve_globals; line: 1804
+                            1 ./inference.jl; resolve_relative; line: 1791
+                       6   ./inference.jl; inlineable; line: 2300
+                        6 ./inference.jl; exprtype; line: 1879
+                         6 ./inference.jl; abstract_eval; line: 919
+                          1 ./inference.jl; abstract_eval_symbol; line: 1041
+                          4 ./inference.jl; abstract_eval_symbol; line: 1066
+                           4 ./inference.jl; abstract_eval_global; line: 1027
+                            4 ./inference.jl; ...ract_eval_constant; line: 1006
+                       1   ./inference.jl; inlineable; line: 2384
+                        1 ./inference.jl; occurs_more; line: 1852
+                         1 ./inference.jl; occurs_more; line: 1852
+                          1 ./inference.jl; occurs_more; line: 1859
+                       1   ./inference.jl; inlineable; line: 2386
+                        1 ./inference.jl; effect_free; line: 1951
+                       1   ./inference.jl; inlineable; line: 2398
+                        1 ./inference.jl; unique_name; line: 2749
+                         1 ./inference.jl; contains_is1; line: 2726
+                       2   ./inference.jl; inlineable; line: 2400
+                       1   ./inference.jl; inlineable; line: 2424
+                       1   ./inference.jl; inlineable; line: 2430
+                       1   ./inference.jl; inlineable; line: 2433
+                       1   ./inference.jl; inlineable; line: 2450
+                        1 ./inference.jl; unique_name; line: 2749
+                         1 ./inference.jl; contains_is1; line: 2726
+                       1   ./inference.jl; inlineable; line: 2452
+                       1   ./inference.jl; inlineable; line: 2494
+                      1   ./inference.jl; inlining_pass; line: 2658
+                      1   ./inference.jl; inlining_pass; line: 2671
+                     3   ./inference.jl; inlining_pass; line: 2592
+                      1 ./inference.jl; effect_free; line: 1937
+                      1 ./inference.jl; effect_free; line: 1951
+                       1 ./inference.jl; isconstantfunc; line: 563
+                        1 ./array.jl; length; line: 0
+                      1 ./inference.jl; effect_free; line: 1961
+                       1 ./inference.jl; is_known_call_p; line: 2796
+                     6   ./inference.jl; inlining_pass; line: 2594
+                      6 ./inference.jl; unique_name; line: 2735
+                       6 ./inference.jl; contains_is1; line: 2726
+                        1 ./array.jl; getindex; line: 0
+                     1   ./inference.jl; inlining_pass; line: 2596
+                    1   ./inference.jl; inlining_pass; line: 2605
+                     1 ./array.jl; prepend!; line: 493
+                   1   ./inference.jl; inlining_pass; line: 2559
+                    1 ./array.jl; insert!; line: 548
+                     1 ./array.jl; _growat!; line: 396
+                      1 ./array.jl; _growat_end!; line: 411
+                  19  ./inference.jl; typeinf; line: 1548
+                   19 ./inference.jl; tuple_elim_pass; line: 2970
+                    3 ./inference.jl; remove_redundant_temp_vars; line: 2823
+                     3 ./inference.jl; is_var_assigned; line: 2800
+                      1 ...stractarray.jl; next; line: 246
+                    8 ./inference.jl; remove_redundant_temp_vars; line: 2827
+                     8 ./inference.jl; occurs_undef; line: 2856
+                      8 ./inference.jl; occurs_more; line: 1852
+                       8 ./inference.jl; occurs_more; line: 1852
+                        6 ./inference.jl; occurs_more; line: 1852
+                         2 ./inference.jl; occurs_more; line: 1852
+                          1 ./inference.jl; occurs_more; line: 1851
+                          1 ./inference.jl; occurs_more; line: 1859
+                         2 ./inference.jl; occurs_more; line: 1859
+                          1 ./inference.jl; anonymous; line: 2858
+                        1 ./inference.jl; occurs_more; line: 1859
+                    8 ./inference.jl; remove_redundant_temp_vars; line: 2840
+                     2 ./inference.jl; delete_var!; line: 2810
+                      1 ./array.jl; filter!; line: 1218
+                       1 ./inference.jl; anonymous; line: 2809
+                      1 ./array.jl; filter!; line: 1220
+                     1 ./inference.jl; delete_var!; line: 2814
+                      1 ./array.jl; filter!; line: 1224
+                       1 ./array.jl; deleteat!; line: 567
+                        1 ./array.jl; _deleteat!; line: 428
+                         1 ./array.jl; _deleteat_end!; line: 447
+                     5 ./inference.jl; sym_replace; line: 1755
+                      4 ./inference.jl; sym_replace; line: 1752
+                       1 ./inference.jl; sym_replace; line: 1727
+                       3 ./inference.jl; sym_replace; line: 1755
+                        2 ./inference.jl; sym_replace; line: 1728
+                         1 ./inference.jl; _sym_repl; line: 1763
+                        1 ./inference.jl; sym_replace; line: 1731
+                      1 ./inference.jl; sym_replace; line: 1755
+                       1 ./inference.jl; sym_replace; line: 1755
+                        1 ./inference.jl; sym_replace; line: 1755
+                         1 ./inference.jl; sym_replace; line: 1731
+                  4   ./inference.jl; typeinf; line: 1550
+                  5   ./inference.jl; typeinf; line: 1560
+           1   ...ser/src/parser.jl; URI; line: 34
+          19309 ...s/src/Requests.jl; do_request; line: 569
+           8219  ...s/src/Requests.jl; open_stream; line: 207
+            55   ...s/src/Requests.jl; default_request; line: 52
+             8 ./inference.jl; typeinf_ext; line: 1216
+              2 ./inference.jl; typeinf; line: 1409
+               1 ./inference.jl; abstract_interpret; line: 1090
+                1 ./inference.jl; abstract_eval; line: 935
+                 1 ./inference.jl; abstract_eval_call; line: 903
+                  1 ./inference.jl; abstract_call; line: 819
+                   1 ./inference.jl; abstract_call_gf; line: 726
+                    1 ./inference.jl; typeinf; line: 1560
+               1 ./inference.jl; abstract_interpret; line: 1107
+                1 ./inference.jl; abstract_eval; line: 935
+                 1 ./inference.jl; abstract_eval_call; line: 878
+                  1 ./inference.jl; abstract_eval_arg; line: 866
+                   1 ./inference.jl; abstract_eval; line: 935
+                    1 ./inference.jl; abstract_eval_call; line: 903
+                     1 ./inference.jl; abstract_call; line: 819
+                      1 ./inference.jl; abstract_call_gf; line: 726
+                       1 ./inference.jl; typeinf; line: 1550
+              1 ./inference.jl; typeinf; line: 1514
+              2 ./inference.jl; typeinf; line: 1544
+               2 ./inference.jl; inlining_pass; line: 2553
+                2 ./inference.jl; inlining_pass; line: 2590
+                 1 ./inference.jl; inlining_pass; line: 2590
+                  1 ./inference.jl; inlining_pass; line: 2656
+                   1 ./inference.jl; inlineable; line: 2193
+                 1 ./inference.jl; inlining_pass; line: 2656
+                  1 ./inference.jl; inlineable; line: 2136
+                   1 ./inference.jl; typeinf; line: 1544
+                    1 ./inference.jl; inlining_pass; line: 2553
+                     1 ./inference.jl; inlining_pass; line: 2590
+                      1 ./inference.jl; inlining_pass; line: 2590
+                       1 ./inference.jl; inlining_pass; line: 2656
+                        1 ./inference.jl; inlineable; line: 2136
+                         1 ./inference.jl; typeinf; line: 1550
+              1 ./inference.jl; typeinf; line: 1548
+               1 ./inference.jl; tuple_elim_pass; line: 2970
+                1 ./inference.jl; remove_redundant_temp_vars; line: 2823
+                 1 ./inference.jl; is_var_assigned; line: 2801
+              2 ./inference.jl; typeinf; line: 1550
+             1 ...s/src/Requests.jl; default_request; line: 31
+             1 ...s/src/Requests.jl; default_request; line: 40
+              1 dict.jl; convert; line: 348
+               1 dict.jl; ht_keyindex; line: 474
+                1 ./array.jl; sizeof; line: 0
+            357  ...s/src/Requests.jl; open_stream; line: 212
+             2   socket.jl; getaddrinfo; line: 534
+              2 socket.jl; getaddrinfo; line: 527
+             355 socket.jl; getaddrinfo; line: 537
+              355 ./task.jl; wait; line: 194
+               354 ./task.jl; wait; line: 273
+                1   ./stream.jl; process_events; line: 0
+                353 ./stream.jl; process_events; line: 537
+                 2  ./inference.jl; typeinf_ext; line: 1216
+                  1 ./inference.jl; typeinf; line: 1472
+                   1 ./inference.jl; abstract_eval_arg; line: 866
+                    1 ./inference.jl; abstract_eval; line: 935
+                     1 ./inference.jl; abstract_eval_call; line: 878
+                      1 ./inference.jl; abstract_eval_arg; line: 866
+                       1 ./inference.jl; abstract_eval; line: 935
+                        1 ./inference.jl; abstract_eval_call; line: 878
+                         1 ./inference.jl; abstract_eval_arg; line: 866
+                          1 ./inference.jl; abstract_eval; line: 935
+                           1 ./inference.jl; abstract_eval_call; line: 903
+                            1 ./inference.jl; abstract_call; line: 860
+                             1 ./inference.jl; builtin_tfunction; line: 541
+                              1 ./inference.jl; anonymous; line: 411
+                  1 ./inference.jl; typeinf; line: 1544
+                   1 ./inference.jl; inlining_pass; line: 2553
+                    1 ./inference.jl; inlining_pass; line: 2590
+                     1 ./inference.jl; inlining_pass; line: 2590
+                      1 ./inference.jl; inlining_pass; line: 2656
+                       1 ./inference.jl; inlineable; line: 2142
+                 1  socket.jl; _uv_hook_getaddrinfo; line: 503
+                  1 ./dict.jl; pop!; line: 0
+                 25 socket.jl; _uv_hook_getaddrinfo; line: 512
+                  24 socket.jl; anonymous; line: 535
+                   2  ./task.jl; __notify#13__; line: 206
+                   20 ./task.jl; __notify#13__; line: 207
+                    7 ./inference.jl; typeinf_ext; line: 1216
+                     2 ./inference.jl; typeinf; line: 1409
+                      1 ./inference.jl; abstract_interpret; line: 1090
+                       1 ./inference.jl; abstract_eval; line: 935
+                        1 ./inference.jl; abstract_eval_call; line: 878
+                         1 ./inference.jl; abstract_eval_arg; line: 866
+                          1 ./inference.jl; abstract_eval; line: 935
+                           1 ./inference.jl; abstract_eval_call; line: 903
+                            1 ./inference.jl; abstract_call; line: 819
+                             1 ./inference.jl; abstract_call_gf; line: 678
+                              1 ...flection.jl; _methods; line: 116
+                               1 ...lection.jl; _methods; line: 116
+                                1 ...lection.jl; _methods; line: 99
+                      1 ./inference.jl; abstract_interpret; line: 1107
+                       1 ./inference.jl; abstract_eval; line: 935
+                        1 ./inference.jl; abstract_eval_call; line: 878
+                         1 ./inference.jl; abstract_eval_arg; line: 866
+                          1 ./inference.jl; abstract_eval; line: 935
+                           1 ./inference.jl; abstract_eval_call; line: 903
+                            1 ./inference.jl; abstract_call; line: 819
+                             1 ./inference.jl; abstract_call_gf; line: 678
+                              1 ...flection.jl; _methods; line: 116
+                               1 ...lection.jl; _methods; line: 116
+                                1 ...lection.jl; _methods; line: 99
+                     4 ./inference.jl; typeinf; line: 1472
+                      4 ./inference.jl; abstract_eval_arg; line: 866
+                       4 ./inference.jl; abstract_eval; line: 935
+                        4 ./inference.jl; abstract_eval_call; line: 903
+                         4 ./inference.jl; abstract_call; line: 819
+                          4 ./inference.jl; abstract_call_gf; line: 726
+                           4 ./inference.jl; typeinf; line: 1409
+                            4 ./inference.jl; abstract_interpret; line: 1107
+                             4 ./inference.jl; abstract_eval; line: 935
+                              4 ./inference.jl; abstract_eval_call; line: 878
+                               4 ...ference.jl; abstract_eval_arg; line: 866
+                                4 ...ference.jl; abstract_eval; line: 935
+                                 4 ...erence.jl; abstract_eval_call; line: 903
+                                  4 ...erence.jl; abstract_call; line: 819
+                                   4 ...erence.jl; abstract_call_gf; line: 726
+                                    4 ...rence.jl; typeinf; line: 1472
+                                     4 ...rence.jl; ...ract_eval_arg; line: 866
+                                      4 ...ence.jl; abstract_eval; line: 935
+                                       1 ...ence.jl; ...ct_eval_call; line: 879
+                                        1 ...duce.jl; mapfoldl; line: 362
+                                     +1 1 ...ence.jl; anonymous; line: 879
+                                       2 ...ence.jl; ...ct_eval_call; line: 899
+                                        2 ...tion.jl; _methods; line: 99
+                                       1 ...ence.jl; ...ct_eval_call; line: 900
+                                        1 ...ence.jl; ...ract_call_gf; line: 726
+                                     +1 1 ...nce.jl; typeinf; line: 1472
+                                     +2 1 ...ence.jl; ...act_eval_arg; line: 866
+                                     +3 1 ...ence.jl; abstract_eval; line: 946
+                                     +4 1 ...ence.jl; abstract_eval; line: 935
+                                     +5 1 ...ence.jl; ...ct_eval_call; line: 903
+                                     +6 1 ...ence.jl; abstract_call; line: 819
+                                     +7 1 ...ence.jl; ...ract_call_gf; line: 726
+                                     +8 1 ...nce.jl; typeinf; line: 1251
+                     1 ./inference.jl; typeinf; line: 1544
+                      1 ./inference.jl; inlining_pass; line: 2559
+                       1 ./array.jl; insert!; line: 548
+                        1 ./array.jl; _growat!; line: 392
+                         1 ./array.jl; _growat_beg!; line: 402
+                    3 task.jl; schedule; line: 247
+                     1 ./inference.jl; typeinf_ext; line: 1216
+                      1 ./inference.jl; typeinf; line: 1560
+               1   ./task.jl; wait; line: 284
+            1    ...s/src/Requests.jl; open_stream; line: 213
+             1 ./string.jl; ==; line: 0
+            7487 ...s/src/Requests.jl; open_stream; line: 214
+             3    ./inference.jl; typeinf_ext; line: 1216
+              1 ./inference.jl; typeinf; line: 1472
+               1 ./inference.jl; abstract_eval_arg; line: 866
+                1 ./inference.jl; abstract_eval; line: 935
+                 1 ./inference.jl; abstract_eval_call; line: 903
+                  1 ./inference.jl; abstract_call; line: 819
+                   1 ./inference.jl; abstract_call_gf; line: 726
+                    1 ./inference.jl; typeinf; line: 1550
+              1 ./inference.jl; typeinf; line: 1544
+               1 ./inference.jl; inlining_pass; line: 2553
+                1 ./inference.jl; inlining_pass; line: 2590
+                 1 ./inference.jl; inlining_pass; line: 2656
+                  1 ./inference.jl; inlineable; line: 2222
+             7469 socket.jl; connect; line: 603
+              1    socket.jl; TcpSocket; line: 265
+               1 ./base.jl; finalizer; line: 123
+              1    socket.jl; TcpSocket; line: 266
+              5    socket.jl; connect!; line: 582
+              7462 stream.jl; wait_connected; line: 301
+               7462 stream.jl; stream_wait; line: 263
+                1    ./task.jl; wait; line: 191
+                7461 ./task.jl; wait; line: 194
+                 7457 ./task.jl; wait; line: 273
+                  7456 ./stream.jl; process_events; line: 537
+                   7 ./inference.jl; typeinf_ext; line: 1216
+                    2 ./inference.jl; typeinf; line: 1409
+                     2 ./inference.jl; abstract_interpret; line: 1107
+                      2 ./inference.jl; abstract_eval; line: 935
+                       2 ./inference.jl; abstract_eval_call; line: 878
+                        2 ./inference.jl; abstract_eval_arg; line: 866
+                         2 ./inference.jl; abstract_eval; line: 935
+                          2 ./inference.jl; abstract_eval_call; line: 903
+                           2 ./inference.jl; abstract_call; line: 819
+                            2 ./inference.jl; abstract_call_gf; line: 678
+                             2 ...flection.jl; _methods; line: 116
+                              2 ...flection.jl; _methods; line: 116
+                               2 ...flection.jl; _methods; line: 99
+                    1 ./inference.jl; typeinf; line: 1472
+                     1 ./inference.jl; abstract_eval_arg; line: 866
+                      1 ./inference.jl; abstract_eval; line: 935
+                       1 ./inference.jl; abstract_eval_call; line: 903
+                        1 ./inference.jl; abstract_call; line: 819
+                         1 ./inference.jl; abstract_call_gf; line: 726
+                          1 ./inference.jl; typeinf; line: 1548
+                           1 ./inference.jl; tuple_elim_pass; line: 2967
+                            1 ./inference.jl; find_sa_vars; line: 2883
+                    2 ./inference.jl; typeinf; line: 1544
+                     2 ./inference.jl; inlining_pass; line: 2553
+                      2 ./inference.jl; inlining_pass; line: 2590
+                       2 ./inference.jl; inlining_pass; line: 2656
+                        1 ./inference.jl; inlineable; line: 2076
+                         1 ./reflection.jl; _methods; line: 116
+                          1 ./reflection.jl; _methods; line: 116
+                           1 ./reflection.jl; _methods; line: 99
+                        1 ./inference.jl; inlineable; line: 2142
+                    2 ./inference.jl; typeinf; line: 1550
+                   3 stream.jl; _uv_hook_connectcb; line: 335
+                    2 ./task.jl; __notify#12__; line: 205
+                     1 ./task.jl; __notify#13__; line: 0
+                 1    ./task.jl; wait; line: 282
+                 3    ./task.jl; wait; line: 283
+            319  ...s/src/Requests.jl; open_stream; line: 224
+             280 ...s/src/Requests.jl; render; line: 23
+              1   ./ascii.jl; string; line: 29
+              106 ./inference.jl; typeinf_ext; line: 1216
+               105 ./inference.jl; typeinf; line: 1472
+                105 ./inference.jl; abstract_eval_arg; line: 866
+                 105 ./inference.jl; abstract_eval; line: 935
+                  105 ./inference.jl; abstract_eval_call; line: 903
+                   105 ./inference.jl; abstract_call; line: 819
+                    105 ./inference.jl; abstract_call; line: 819
+                     3   ./inference.jl; abstract_call_gf; line: 716
+                      3 ./operators.jl; !=; line: 26
+                     102 ./inference.jl; abstract_call_gf; line: 726
+                      1  ./inference.jl; typeinf; line: 1403
+                      1  ./inference.jl; typeinf; line: 1408
+                      35 ./inference.jl; typeinf; line: 1409
+                       1  ./inference.jl; abstract_interpret; line: 1087
+                       23 ./inference.jl; abstract_interpret; line: 1090
+                        23 ./inference.jl; abstract_eval; line: 935
+                         5  ./inference.jl; abstract_eval_call; line: 878
+                          4 ./inference.jl; abstract_eval_arg; line: 866
+                           4 ./inference.jl; abstract_eval; line: 935
+                            2 ./inference.jl; abstract_eval_call; line: 878
+                             2 ./inference.jl; abstract_eval_arg; line: 866
+                              1 ./inference.jl; abstract_eval; line: 919
+                               1 ...ference.jl; ...ract_eval_symbol; line: 1037
+                              1 ./inference.jl; abstract_eval; line: 935
+                               1 ...ference.jl; abstract_eval_call; line: 903
+                                1 ...ference.jl; abstract_call; line: 860
+                                 1 ...erence.jl; builtin_tfunction; line: 516
+                            2 ./inference.jl; abstract_eval_call; line: 903
+                             2 ./inference.jl; abstract_call; line: 819
+                              2 ./inference.jl; abstract_call_gf; line: 678
+                               2 ...lection.jl; _methods; line: 116
+                                2 ...lection.jl; _methods; line: 116
+                                 2 ...lection.jl; _methods; line: 99
+                          1 ./inference.jl; abstract_eval_arg; line: 868
+                         18 ./inference.jl; abstract_eval_call; line: 903
+                          18 ./inference.jl; abstract_call; line: 819
+                           5  ./inference.jl; abstract_call_gf; line: 678
+                            5 ...flection.jl; _methods; line: 116
+                             5 ...flection.jl; _methods; line: 116
+                              3 ...flection.jl; _methods; line: 99
+                              2 ...flection.jl; _methods; line: 116
+                               2 ...flection.jl; _methods; line: 99
+                           13 ./inference.jl; abstract_call_gf; line: 726
+                            2 ./inference.jl; typeinf; line: 1242
+                            1 ./inference.jl; typeinf; line: 1250
+                            2 ./inference.jl; typeinf; line: 1472
+                             2 ./inference.jl; abstract_eval_arg; line: 866
+                              2 ./inference.jl; abstract_eval; line: 935
+                               2 ...ference.jl; abstract_eval_call; line: 878
+                                2 ...ference.jl; abstract_eval_arg; line: 866
+                                 2 ...erence.jl; abstract_eval; line: 935
+                                  2 ...erence.jl; abstract_eval_call; line: 878
+                                   2 ...erence.jl; abstract_eval_arg; line: 866
+                                    2 ...rence.jl; abstract_eval; line: 935
+                                     2 ...rence.jl; ...act_eval_call; line: 903
+                                      2 ...ence.jl; abstract_call; line: 819
+                                       2 ...ence.jl; ...ract_call_gf; line: 726
+                                        1 ...nce.jl; typeinf; line: 1472
+                                     +1 1 ...ence.jl; ...act_eval_arg; line: 866
+                                     +2 1 ...ence.jl; abstract_eval; line: 935
+                                     +3 1 ...ence.jl; ...ct_eval_call; line: 903
+                                     +4 1 ...ence.jl; abstract_call; line: 819
+                                     +5 1 ...ence.jl; abstract_call; line: 819
+                                     +6 1 ...ence.jl; ...ract_call_gf; line: 726
+                                     +7 1 ...nce.jl; typeinf; line: 1242
+                                        1 ...nce.jl; typeinf; line: 1550
+                            7 ./inference.jl; typeinf; line: 1544
+                             7 ./inference.jl; inlining_pass; line: 2553
+                              7 ...ference.jl; inlining_pass; line: 2590
+                               7 ...ference.jl; inlining_pass; line: 2590
+                                7 ...erence.jl; inlining_pass; line: 2590
+                                 2 ...erence.jl; inlining_pass; line: 2590
+                                  2 ...erence.jl; inlining_pass; line: 2656
+                                   2 ...rence.jl; inlineable; line: 2136
+                                    1 ...rence.jl; typeinf; line: 1242
+                                    1 ...rence.jl; typeinf; line: 1560
+                                 5 ...erence.jl; inlining_pass; line: 2656
+                                  3 ...erence.jl; inlineable; line: 2136
+                                   2 ...rence.jl; typeinf; line: 1242
+                                   1 ...rence.jl; typeinf; line: 1560
+                                  1 ...erence.jl; inlineable; line: 2148
+                                   1 ./bool.jl; !; line: 0
+                                  1 ...erence.jl; inlineable; line: 2449
+                            1 ./inference.jl; typeinf; line: 1550
+                       11 ./inference.jl; abstract_interpret; line: 1107
+                        11 ./inference.jl; abstract_eval; line: 935
+                         4 ./inference.jl; abstract_eval_call; line: 878
+                          3 ./inference.jl; abstract_eval_arg; line: 866
+                           3 ./inference.jl; abstract_eval; line: 935
+                            1 ./inference.jl; abstract_eval_call; line: 878
+                             1 ./inference.jl; abstract_eval_arg; line: 866
+                              1 ./inference.jl; abstract_eval; line: 935
+                               1 ...ference.jl; abstract_eval_call; line: 903
+                                1 ...ference.jl; abstract_call; line: 819
+                                 1 ...erence.jl; abstract_call_gf; line: 678
+                                  1 ...ection.jl; _methods; line: 116
+                                   1 ...ection.jl; _methods; line: 116
+                                    1 ...ection.jl; _methods; line: 99
+                            1 ./inference.jl; abstract_eval_call; line: 883
+                             1 ./inference.jl; isconstantfunc; line: 556
+                            1 ./inference.jl; abstract_eval_call; line: 903
+                             1 ./inference.jl; abstract_call; line: 819
+                              1 ./inference.jl; abstract_call_gf; line: 678
+                               1 ...lection.jl; _methods; line: 116
+                                1 ...lection.jl; _methods; line: 116
+                                 1 ...ection.jl; _methods; line: 119
+                                  1 ./array.jl; append!; line: 479
+                         1 ./inference.jl; abstract_eval_call; line: 879
+                          1 ./reduce.jl; mapfoldl; line: 362
+                           1 ./inference.jl; anonymous; line: 0
+                         1 ./inference.jl; abstract_eval_call; line: 883
+                          1 ./inference.jl; isconstantfunc; line: 591
+                           1 ./inference.jl; is_global; line: 58
+                            1 ./inference.jl; contains_is; line: 48
+                         5 ./inference.jl; abstract_eval_call; line: 903
+                          5 ./inference.jl; abstract_call; line: 819
+                           3 ./inference.jl; abstract_call_gf; line: 678
+                            3 ...flection.jl; _methods; line: 116
+                             3 ...flection.jl; _methods; line: 116
+                              3 ...flection.jl; _methods; line: 99
+                           2 ./inference.jl; abstract_call_gf; line: 726
+                            1 ./inference.jl; typeinf; line: 1234
+                            1 ./inference.jl; typeinf; line: 1242
+                      3  ./inference.jl; typeinf; line: 1444
+                       2 ./inference.jl; stchanged; line: 1181
+                        1 ./inference.jl; tchanged; line: 1158
+                      10 ./inference.jl; typeinf; line: 1512
+                       10 ./inference.jl; stchanged; line: 1181
+                        1 ./dict.jl; getindex; line: 229
+                        1 ./inference.jl; getindex; line: 1081
+                        1 ./inference.jl; getindex; line: 1083
+                      25 ./inference.jl; typeinf; line: 1514
+                       1  ./inference.jl; stupdate; line: 1160
+                        1 ./dict.jl; ObjectIdDict; line: 259
+                       10 ./inference.jl; stupdate; line: 1161
+                        4 ./inference.jl; stupdate; line: 1166
+                         1 ./inference.jl; getindex; line: 0
+                         2 ./inference.jl; getindex; line: 1081
+                        1 ./inference.jl; stupdate; line: 1168
+                         1 ./inference.jl; tchanged; line: 1158
+                        5 ./inference.jl; stupdate; line: 1169
+                       3  ./inference.jl; stupdate; line: 1166
+                        1 ./dict.jl; getindex; line: 230
+                        1 ./inference.jl; getindex; line: 1083
+                       3  ./inference.jl; stupdate; line: 1167
+                       5  ./inference.jl; stupdate; line: 1168
+                        2 ./inference.jl; tchanged; line: 1158
+                       3  ./inference.jl; stupdate; line: 1169
+                      1  ./inference.jl; typeinf; line: 1540
+                       1 ./inference.jl; type_annotate; line: 1686
+                        1 ./inference.jl; eval_annotate; line: 1652
+                      12 ./inference.jl; typeinf; line: 1544
+                       12 ./inference.jl; inlining_pass; line: 2553
+                        12 ./inference.jl; inlining_pass; line: 2590
+                         1 ./inference.jl; inlining_pass; line: 2569
+                          1 ./inference.jl; is_known_call; line: 2787
+                           1 ./inference.jl; isconstantfunc; line: 591
+                            1 ./inference.jl; is_global; line: 58
+                             1 ./inference.jl; contains_is; line: 49
+                         7 ./inference.jl; inlining_pass; line: 2590
+                          1 ./inference.jl; inlining_pass; line: 2626
+                           1 ./inference.jl; exprtype; line: 1876
+                          1 ./inference.jl; inlining_pass; line: 2629
+                          5 ./inference.jl; inlining_pass; line: 2656
+                           1 ./inference.jl; inlineable; line: 2136
+                            1 ./inference.jl; typeinf; line: 1242
+                           1 ./inference.jl; inlineable; line: 2142
+                           1 ./inference.jl; inlineable; line: 2271
+                            1 ./inference.jl; resolve_globals; line: 1839
+                             1 ./inference.jl; resolve_globals; line: 1839
+                              1 ...ference.jl; resolve_globals; line: 1839
+                               1 ...ference.jl; resolve_globals; line: 1804
+                                1 ...erence.jl; resolve_relative; line: 1777
+                                 1 ./reduce.jl; _mapreduce; line: 174
+                                  1 ./reduce.jl; mapreduce_impl; line: 383
+                           2 ./inference.jl; inlineable; line: 2450
+                            2 ./inference.jl; unique_name; line: 2749
+                             2 ./inference.jl; contains_is1; line: 2726
+                         4 ./inference.jl; inlining_pass; line: 2656
+                          1 ./inference.jl; inlineable; line: 2076
+                          1 ./inference.jl; inlineable; line: 2136
+                           1 ./inference.jl; typeinf; line: 1242
+                          2 ./inference.jl; inlineable; line: 2450
+                           2 ./inference.jl; unique_name; line: 2749
+                            2 ./inference.jl; contains_is1; line: 2726
+                      11 ./inference.jl; typeinf; line: 1548
+                       1 ./inference.jl; tuple_elim_pass; line: 2967
+                        1 ./inference.jl; find_sa_vars; line: 2866
+                       1 ./inference.jl; tuple_elim_pass; line: 2970
+                        1 ./inference.jl; ...e_redundant_temp_vars; line: 2827
+                         1 ./inference.jl; occurs_undef; line: 2856
+                          1 ./inference.jl; occurs_more; line: 1852
+                           1 ./inference.jl; occurs_more; line: 1852
+                            1 ./inference.jl; occurs_more; line: 1851
+                       1 ./inference.jl; tuple_elim_pass; line: 2972
+                       3 ./inference.jl; tuple_elim_pass; line: 2981
+                        3 ./inference.jl; occurs_outside_tupleref; line: 2915
+                         1 ./inference.jl; occurs_outside_tupleref; line: 2912
+                          1 ./inference.jl; ...rs_outside_tupleref; line: 2900
+                           1 ./inference.jl; is_known_call; line: 2788
+                         2 ./inference.jl; occurs_outside_tupleref; line: 2915
+                          2 ./inference.jl; ...rs_outside_tupleref; line: 2915
+                           1 ./inference.jl; ...rs_outside_tupleref; line: 2900
+                            1 ./inference.jl; is_known_call; line: 2787
+                             1 ./inference.jl; isconstantfunc; line: 591
+                              1 ./inference.jl; is_global; line: 58
+                               1 ./inference.jl; contains_is; line: 49
+                           1 ./inference.jl; ...rs_outside_tupleref; line: 2915
+                       1 ./inference.jl; tuple_elim_pass; line: 2996
+                        1 ./inference.jl; unique_name; line: 2735
+                         1 ./inference.jl; contains_is1; line: 2726
+                       4 ./inference.jl; tuple_elim_pass; line: 3005
+                        4 ./inference.jl; replace_tupleref!; line: 3034
+                         1 ./inference.jl; replace_tupleref!; line: 3018
+                          1 ./inference.jl; is_known_call; line: 2787
+                           1 ./inference.jl; isconstantfunc; line: 591
+                            1 ./inference.jl; is_global; line: 58
+                             1 ./inference.jl; contains_is; line: 50
+                         3 ./inference.jl; replace_tupleref!; line: 3034
+                          3 ./inference.jl; replace_tupleref!; line: 3018
+                           3 ./inference.jl; is_known_call; line: 2787
+                            3 ./inference.jl; isconstantfunc; line: 591
+                             3 ./inference.jl; is_global; line: 58
+                              1 ./inference.jl; contains_is; line: 48
+                              2 ./inference.jl; contains_is; line: 49
+                      3  ./inference.jl; typeinf; line: 1550
+               1   ./inference.jl; typeinf; line: 1550
+              10  abstractarray.jl; map; line: 1328
+               7 ...s/src/Requests.jl; anonymous; line: 25
+                1 ./string.jl; *; line: 76
+                 1 ./ascii.jl; string; line: 0
+                1 dict.jl; getindex; line: 616
+                 1 dict.jl; ht_keyindex; line: 481
+                  1 ./string.jl; ==; line: 0
+              3   abstractarray.jl; map; line: 1329
+               1 ./inference.jl; typeinf_ext; line: 1216
+                1 ./inference.jl; typeinf; line: 1544
+                 1 ./inference.jl; inlining_pass; line: 2553
+                  1 ./inference.jl; inlining_pass; line: 2590
+                   1 ./inference.jl; inlining_pass; line: 2590
+                    1 ./inference.jl; inlining_pass; line: 2671
+                     1 ./inference.jl; is_known_call; line: 2787
+                      1 ./inference.jl; isconstantfunc; line: 591
+                       1 ./inference.jl; _iisconst; line: 63
+              2   abstractarray.jl; map; line: 1330
+              52  abstractarray.jl; map; line: 1331
+               31 ./inference.jl; typeinf_ext; line: 1216
+                15 ./inference.jl; typeinf; line: 1409
+                 2  ./inference.jl; abstract_interpret; line: 1090
+                  2 ./inference.jl; abstract_eval; line: 935
+                   2 ./inference.jl; abstract_eval_call; line: 903
+                    1 ./inference.jl; abstract_call; line: 819
+                     1 ./inference.jl; abstract_call_gf; line: 726
+                      1 ./inference.jl; typeinf; line: 1472
+                       1 ./inference.jl; abstract_eval_arg; line: 866
+                        1 ./inference.jl; abstract_eval; line: 935
+                         1 ./inference.jl; abstract_eval_call; line: 878
+                          1 ./inference.jl; abstract_eval_arg; line: 866
+                           1 ./inference.jl; abstract_eval; line: 935
+                            1 ./inference.jl; abstract_eval_call; line: 903
+                             1 ./inference.jl; abstract_call; line: 819
+                              1 ./inference.jl; abstract_call_gf; line: 726
+                               1 ...ference.jl; typeinf; line: 1242
+                    1 ./inference.jl; abstract_call; line: 860
+                     1 ./inference.jl; builtin_tfunction; line: 492
+                 13 ./inference.jl; abstract_interpret; line: 1107
+                  13 ./inference.jl; abstract_eval; line: 935
+                   13 ./inference.jl; abstract_eval_call; line: 903
+                    13 ./inference.jl; abstract_call; line: 819
+                     13 ./inference.jl; abstract_call_gf; line: 726
+                      2 ./inference.jl; typeinf; line: 1298
+                      1 ./inference.jl; typeinf; line: 1409
+                       1 ./inference.jl; abstract_interpret; line: 1107
+                        1 ./inference.jl; abstract_eval; line: 935
+                         1 ./inference.jl; abstract_eval_call; line: 903
+                          1 ./inference.jl; abstract_call; line: 819
+                           1 ./inference.jl; abstract_call_gf; line: 726
+                            1 ./inference.jl; typeinf; line: 1382
+                      5 ./inference.jl; typeinf; line: 1472
+                       5 ./inference.jl; abstract_eval_arg; line: 866
+                        5 ./inference.jl; abstract_eval; line: 935
+                         5 ./inference.jl; abstract_eval_call; line: 903
+                          5 ./inference.jl; abstract_call; line: 819
+                           5 ./inference.jl; abstract_call_gf; line: 726
+                            1 ./inference.jl; typeinf; line: 1409
+                             1 ./inference.jl; abstract_interpret; line: 1090
+                              1 ./inference.jl; abstract_eval; line: 935
+                               1 ...ference.jl; abstract_eval_call; line: 878
+                                1 ...ference.jl; abstract_eval_arg; line: 866
+                                 1 ...erence.jl; abstract_eval; line: 935
+                                  1 ...erence.jl; abstract_eval_call; line: 903
+                                   1 ...erence.jl; abstract_call; line: 819
+                                    1 ...rence.jl; abstract_call_gf; line: 678
+                                     1 ...ction.jl; _methods; line: 116
+                                      1 ...tion.jl; _methods; line: 116
+                                       1 ...tion.jl; _methods; line: 99
+                            2 ./inference.jl; typeinf; line: 1544
+                             2 ./inference.jl; inlining_pass; line: 2553
+                              1 ...ference.jl; inlining_pass; line: 2590
+                               1 ...ference.jl; inlining_pass; line: 2656
+                                1 ...erence.jl; inlineable; line: 2142
+                              1 ...ference.jl; inlining_pass; line: 2656
+                               1 ...ference.jl; inlineable; line: 2384
+                            2 ./inference.jl; typeinf; line: 1550
+                      1 ./inference.jl; typeinf; line: 1540
+                       1 ./inference.jl; type_annotate; line: 1693
+                        1 ./array.jl; getindex; line: 246
+                      3 ./inference.jl; typeinf; line: 1544
+                       3 ./inference.jl; inlining_pass; line: 2553
+                        1 ./inference.jl; inlining_pass; line: 2577
+                        2 ./inference.jl; inlining_pass; line: 2590
+                         1 ./inference.jl; inlining_pass; line: 2594
+                          1 ./inference.jl; unique_name; line: 2736
+                         1 ./inference.jl; inlining_pass; line: 2661
+                          1 ./array.jl; append!; line: 479
+                           1 ./array.jl; copy!; line: 54
+                            1 ./array.jl; unsafe_copy!; line: 40
+                      1 ./inference.jl; typeinf; line: 1550
+                12 ./inference.jl; typeinf; line: 1472
+                 12 ./inference.jl; abstract_eval_arg; line: 866
+                  12 ./inference.jl; abstract_eval; line: 935
+                   12 ./inference.jl; abstract_eval_call; line: 903
+                    12 ./inference.jl; abstract_call; line: 819
+                     12 ./inference.jl; abstract_call_gf; line: 726
+                      4 ./inference.jl; typeinf; line: 1409
+                       1 ./inference.jl; abstract_interpret; line: 1090
+                        1 ./inference.jl; abstract_eval; line: 935
+                         1 ./inference.jl; abstract_eval_call; line: 903
+                          1 ./inference.jl; abstract_call; line: 819
+                           1 ./inference.jl; abstract_call_gf; line: 678
+                            1 ...flection.jl; _methods; line: 116
+                             1 ...flection.jl; _methods; line: 116
+                              1 ...flection.jl; _methods; line: 99
+                       3 ./inference.jl; abstract_interpret; line: 1107
+                        3 ./inference.jl; abstract_eval; line: 935
+                         1 ./inference.jl; abstract_eval_call; line: 877
+                          1 ./array.jl; getindex; line: 0
+                         2 ./inference.jl; abstract_eval_call; line: 903
+                          2 ./inference.jl; abstract_call; line: 819
+                           1 ./inference.jl; abstract_call_gf; line: 678
+                            1 ...flection.jl; _methods; line: 116
+                             1 ...flection.jl; _methods; line: 116
+                              1 ...flection.jl; _methods; line: 109
+                               1 ...flection.jl; _methods; line: 99
+                           1 ./inference.jl; abstract_call_gf; line: 726
+                            1 ./inference.jl; typeinf; line: 1250
+                      1 ./inference.jl; typeinf; line: 1514
+                       1 ./inference.jl; stupdate; line: 1161
+                        1 ./inference.jl; stupdate; line: 1169
+                         1 ./inference.jl; tmerge; line: 1135
+                      3 ./inference.jl; typeinf; line: 1544
+                       3 ./inference.jl; inlining_pass; line: 2553
+                        3 ./inference.jl; inlining_pass; line: 2590
+                         1 ./inference.jl; inlining_pass; line: 2590
+                          1 ./inference.jl; inlining_pass; line: 2656
+                           1 ./inference.jl; inlineable; line: 2142
+                         2 ./inference.jl; inlining_pass; line: 2656
+                          1 ./inference.jl; inlineable; line: 2386
+                           1 ./inference.jl; effect_free; line: 2010
+                            1 ./inference.jl; effect_free; line: 1951
+                             1 ./inference.jl; isconstantfunc; line: 563
+                          1 ./inference.jl; inlineable; line: 2461
+                      1 ./inference.jl; typeinf; line: 1548
+                       1 ./inference.jl; tuple_elim_pass; line: 2970
+                        1 ./inference.jl; ...e_redundant_temp_vars; line: 2840
+                         1 ./inference.jl; sym_replace; line: 1755
+                          1 ./inference.jl; sym_replace; line: 1755
+                           1 ./inference.jl; sym_replace; line: 1755
+                            1 ./inference.jl; sym_replace; line: 1755
+                             1 ./inference.jl; sym_replace; line: 1755
+                              1 ...ference.jl; sym_replace; line: 1755
+                               1 ...ference.jl; sym_replace; line: 1755
+                      3 ./inference.jl; typeinf; line: 1550
+                2  ./inference.jl; typeinf; line: 1544
+                 2 ./inference.jl; inlining_pass; line: 2553
+                  2 ./inference.jl; inlining_pass; line: 2590
+                   2 ./inference.jl; inlining_pass; line: 2590
+                    2 ./inference.jl; inlining_pass; line: 2656
+                     2 ./inference.jl; inlineable; line: 2386
+                      1 ./inference.jl; effect_free; line: 1947
+                      1 ./inference.jl; effect_free; line: 2010
+                       1 ./inference.jl; effect_free; line: 2010
+                        1 ./inference.jl; effect_free; line: 2010
+                         1 ./inference.jl; effect_free; line: 2010
+                          1 ./inference.jl; effect_free; line: 1951
+                           1 ./inference.jl; isconstantfunc; line: 556
+                2  ./inference.jl; typeinf; line: 1550
+               2  abstractarray.jl; map_to!; line: 1311
+                2 ...s/src/Requests.jl; anonymous; line: 25
+                 2 dict.jl; getindex; line: 616
+                  1 dict.jl; ht_keyindex; line: 471
+                  1 dict.jl; ht_keyindex; line: 481
+                   1 ./string.jl; ==; line: 528
+                    1 ./array.jl; lexcmp; line: 0
+              67  abstractarray.jl; vcat; line: 670
+               9  abstractarray.jl; cat; line: 615
+                6 ./tuple.jl; map; line: 49
+                 1 ./inference.jl; typeinf_ext; line: 1216
+                  1 ./inference.jl; typeinf; line: 1560
+                 3 ./tuple.jl; map; line: 48
+                  3 abstractarray.jl; anonymous; line: 615
+               2  abstractarray.jl; cat; line: 616
+                2 ./tuple.jl; map; line: 49
+                 2 ./tuple.jl; map; line: 48
+                  2 abstractarray.jl; anonymous; line: 616
+               1  abstractarray.jl; cat; line: 617
+               1  abstractarray.jl; cat; line: 619
+               2  abstractarray.jl; cat; line: 626
+               2  abstractarray.jl; cat; line: 637
+                1 ./base.jl; setindex!; line: 0
+               1  abstractarray.jl; cat; line: 639
+               8  abstractarray.jl; cat; line: 656
+                2 ./tuple.jl; ntuple; line: 29
+                 2 ./tuple.jl; ntuple; line: 30
+               6  abstractarray.jl; cat; line: 657
+                1 ./inference.jl; typeinf_ext; line: 1216
+                 1 ./inference.jl; typeinf; line: 1408
+                2 promotion.jl; promote_type; line: 98
+                 2 promotion.jl; promote_type; line: 98
+               5  abstractarray.jl; cat; line: 658
+                1 ./abstractarray.jl; vcat; line: 517
+                1 ./inference.jl; typeinf_ext; line: 1216
+                 1 ./inference.jl; typeinf; line: 1550
+               3  abstractarray.jl; cat; line: 663
+               26 abstractarray.jl; cat; line: 664
+                6 ./inference.jl; typeinf_ext; line: 1216
+                 3 ./inference.jl; typeinf; line: 1409
+                  3 ./inference.jl; abstract_interpret; line: 1107
+                   3 ./inference.jl; abstract_eval; line: 935
+                    3 ./inference.jl; abstract_eval_call; line: 903
+                     3 ./inference.jl; abstract_call; line: 819
+                      3 ./inference.jl; abstract_call_gf; line: 726
+                       1 ./inference.jl; typeinf; line: 1409
+                        1 ./inference.jl; abstract_interpret; line: 1090
+                         1 ./inference.jl; abstract_eval; line: 935
+                          1 ./inference.jl; abstract_eval_call; line: 878
+                           1 ./inference.jl; abstract_eval_arg; line: 866
+                            1 ./inference.jl; abstract_eval; line: 935
+                             1 ./inference.jl; abstract_eval_call; line: 878
+                              1 ./inference.jl; abstract_eval_arg; line: 866
+                               1 ...ference.jl; abstract_eval; line: 935
+                                1 ...ference.jl; abstract_eval_call; line: 903
+                                 1 ...erence.jl; abstract_call; line: 819
+                                  1 ...erence.jl; abstract_call_gf; line: 678
+                                   1 ...ection.jl; _methods; line: 116
+                                    1 ...ection.jl; _methods; line: 99
+                       1 ./inference.jl; typeinf; line: 1544
+                        1 ./inference.jl; inlining_pass; line: 2553
+                         1 ./inference.jl; inlining_pass; line: 2590
+                          1 ./inference.jl; inlining_pass; line: 2590
+                           1 ./inference.jl; inlining_pass; line: 2590
+                            1 ./inference.jl; inlining_pass; line: 2656
+                             1 ./inference.jl; inlineable; line: 2076
+                              1 ...flection.jl; _methods; line: 116
+                               1 ...flection.jl; _methods; line: 99
+                       1 ./inference.jl; typeinf; line: 1550
+                 2 ./inference.jl; typeinf; line: 1544
+                  2 ./inference.jl; inlining_pass; line: 2553
+                   1 ./inference.jl; inlining_pass; line: 2590
+                    1 ./inference.jl; inlining_pass; line: 2656
+                     1 ./inference.jl; inlineable; line: 2384
+                      1 ./inference.jl; occurs_more; line: 1852
+                       1 ./inference.jl; occurs_more; line: 1852
+                   1 ./inference.jl; inlining_pass; line: 2656
+                    1 ./inference.jl; inlineable; line: 2142
+                 1 ./inference.jl; typeinf; line: 1550
+              1   iostream.jl; sprint; line: 228
+               1 ./iobuffer.jl; truncate; line: 136
+              18  iostream.jl; sprint; line: 229
+               4 ./inference.jl; typeinf_ext; line: 1216
+                1 ./inference.jl; typeinf; line: 1512
+                 1 ./inference.jl; stchanged; line: 1181
+                1 ./inference.jl; typeinf; line: 1544
+                 1 ./inference.jl; inlining_pass; line: 2553
+                  1 ./inference.jl; inlining_pass; line: 2590
+                   1 ./inference.jl; inlining_pass; line: 2656
+                    1 ./inference.jl; inlineable; line: 2450
+                     1 ./inference.jl; unique_name; line: 2749
+                2 ./inference.jl; typeinf; line: 1548
+                 1 ./inference.jl; tuple_elim_pass; line: 2970
+                  1 ./inference.jl; remove_redundant_temp_vars; line: 2840
+                   1 ./inference.jl; delete_var!; line: 2810
+                    1 ./array.jl; filter!; line: 1218
+                 1 ./inference.jl; tuple_elim_pass; line: 2981
+                  1 ./inference.jl; occurs_outside_tupleref; line: 2915
+                   1 ./inference.jl; occurs_outside_tupleref; line: 2912
+                    1 ./inference.jl; occurs_outside_tupleref; line: 2900
+                     1 ./inference.jl; is_known_call; line: 2788
+               1 string.jl; print_joined; line: 1415
+               3 string.jl; print_joined; line: 1420
+                3 ./iobuffer.jl; write_sub; line: 252
+                 1 ./iobuffer.jl; write; line: 237
+                 2 ./iobuffer.jl; write; line: 239
+                  2 ./iobuffer.jl; ensureroom; line: 182
+                   2 ./array.jl; resize!; line: 506
+              1   iostream.jl; sprint; line: 230
+               1 ./iobuffer.jl; takebuf_array; line: 207
+             29  ascii.jl; write; line: 94
+              4  stream.jl; write; line: 732
+              25 stream.jl; write; line: 788
+               3  ./stream.jl; stream_wait; line: 261
+                3 ./stream.jl; preserve_handle; line: 17
+                 1 ./int.jl; +; line: 0
+               20 ./stream.jl; stream_wait; line: 263
+                20 ./task.jl; wait; line: 273
+                 20 ./stream.jl; process_events; line: 537
+                  3 ./inference.jl; typeinf_ext; line: 1216
+                   1 ./inference.jl; typeinf; line: 1409
+                    1 ./inference.jl; abstract_interpret; line: 1107
+                     1 ./inference.jl; abstract_eval; line: 935
+                      1 ./inference.jl; abstract_eval_call; line: 903
+                       1 ./inference.jl; abstract_call; line: 819
+                        1 ./inference.jl; abstract_call_gf; line: 726
+                         1 ./inference.jl; typeinf; line: 1242
+                   1 ./inference.jl; typeinf; line: 1544
+                    1 ./inference.jl; inlining_pass; line: 2553
+                     1 ./inference.jl; inlining_pass; line: 2590
+                      1 ./inference.jl; inlining_pass; line: 2590
+                       1 ./inference.jl; inlining_pass; line: 2656
+                        1 ./inference.jl; inlineable; line: 2271
+                         1 ./inference.jl; resolve_globals; line: 1839
+                          1 ./inference.jl; resolve_globals; line: 1839
+                           1 ./inference.jl; resolve_globals; line: 1839
+                            1 ./inference.jl; resolve_globals; line: 1838
+                   1 ./inference.jl; typeinf; line: 1550
+               2  ./stream.jl; stream_wait; line: 265
+                2 ./stream.jl; unpreserve_handle; line: 18
+                 1 ./dict.jl; getindex; line: 229
+           234   ...s/src/Requests.jl; process_response; line: 229
+            233 ...src/HttpCommon.jl; headers; line: 136
+             1   ./string.jl; print_to_string; line: 21
+             7   ./string.jl; print_to_string; line: 24
+              1 ./ascii.jl; print; line: 93
+               1 ./iobuffer.jl; write_sub; line: 252
+                1 ./iobuffer.jl; write; line: 242
+              1 ./version.jl; print; line: 42
+               1 ./version.jl; VersionNumber; line: 34
+              1 ./version.jl; print; line: 44
+               1 ./show.jl; show; line: 203
+                1 ./intfuncs.jl; dec; line: 214
+              1 ./version.jl; print; line: 45
+               1 ./io.jl; write; line: 68
+                1 ./iobuffer.jl; write; line: 0
+              1 ./version.jl; print; line: 48
+             178 ...s/src/dates/io.jl; format; line: 150
+              62 ./inference.jl; typeinf_ext; line: 1216
+               2  ./inference.jl; typeinf; line: 1298
+               14 ./inference.jl; typeinf; line: 1409
+                9 ./inference.jl; abstract_interpret; line: 1090
+                 9 ./inference.jl; abstract_eval; line: 935
+                  8 ./inference.jl; abstract_eval_call; line: 878
+                   8 ./inference.jl; abstract_eval_arg; line: 866
+                    8 ./inference.jl; abstract_eval; line: 935
+                     8 ./inference.jl; abstract_eval_call; line: 878
+                      8 ./inference.jl; abstract_eval_arg; line: 866
+                       8 ./inference.jl; abstract_eval; line: 935
+                        8 ./inference.jl; abstract_eval_call; line: 878
+                         8 ./inference.jl; abstract_eval_arg; line: 866
+                          8 ./inference.jl; abstract_eval; line: 935
+                           8 ./inference.jl; abstract_eval_call; line: 900
+                            8 ./inference.jl; abstract_call_gf; line: 726
+                             7 ./inference.jl; typeinf; line: 1472
+                              7 ./inference.jl; abstract_eval_arg; line: 866
+                               7 ...ference.jl; abstract_eval; line: 935
+                                5 ...ference.jl; abstract_eval_call; line: 878
+                                 5 ...erence.jl; abstract_eval_arg; line: 866
+                                  5 ...erence.jl; abstract_eval; line: 935
+                                   5 ...erence.jl; abstract_eval_call; line: 903
+                                    5 ...rence.jl; abstract_call; line: 819
+                                     5 ...rence.jl; abstract_call_gf; line: 726
+                                      5 ...ence.jl; typeinf; line: 1472
+                                       5 ...ence.jl; ...act_eval_arg; line: 866
+                                        5 ...ence.jl; abstract_eval; line: 935
+                                     +1 5 ...ence.jl; ...ct_eval_call; line: 903
+                                     +2 5 ...ence.jl; abstract_call; line: 819
+                                     +3 5 ...ence.jl; ...ract_call_gf; line: 726
+                                     +4 1 ...nce.jl; typeinf; line: 1409
+                                     +5 1 ...nce.jl; ...t_interpret; line: 1090
+                                     +6 1 ...ence.jl; abstract_eval; line: 935
+                                     +7 1 ...ence.jl; ...ct_eval_call; line: 878
+                                     +8 1 ...ence.jl; ...act_eval_arg; line: 866
+                                     +9 1 ...ence.jl; abstract_eval; line: 935
+                                    +10 1 ...ence.jl; ...ct_eval_call; line: 903
+                                    +11 1 ...ence.jl; abstract_call; line: 819
+                                    +12 1 ...ence.jl; ...ract_call_gf; line: 678
+                                    +13 1 ...tion.jl; _methods; line: 116
+                                    +14 1 ...tion.jl; _methods; line: 116
+                                    +15 1 ...tion.jl; _methods; line: 99
+                                     +4 3 ...nce.jl; typeinf; line: 1544
+                                     +5 3 ...nce.jl; inlining_pass; line: 2553
+                                     +6 3 ...nce.jl; inlining_pass; line: 2590
+                                     +7 1 ...nce.jl; inlining_pass; line: 2590
+                                     +8 1 ...nce.jl; inlining_pass; line: 2590
+                                     +9 1 ...nce.jl; inlining_pass; line: 2656
+                                    +10 1 ...nce.jl; inlineable; line: 2271
+                                    +11 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +12 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +13 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +14 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +15 1 ...nce.jl; ...lve_globals; line: 1801
+                                    +16 1 ...ence.jl; contains_is; line: 0
+                                     +7 2 ...nce.jl; inlining_pass; line: 2656
+                                     +8 1 ...nce.jl; inlineable; line: 2271
+                                     +9 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +10 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +11 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +12 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +13 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +14 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +15 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +16 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +17 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +18 1 ...nce.jl; ...lve_globals; line: 1804
+                                    +19 1 ...nce.jl; ...ve_relative; line: 1784
+                                     +8 1 ...nce.jl; inlineable; line: 2386
+                                     +9 1 ...nce.jl; effect_free; line: 2010
+                                    +10 1 ...nce.jl; effect_free; line: 2010
+                                    +11 1 ...nce.jl; effect_free; line: 2010
+                                    +12 1 ...nce.jl; effect_free; line: 1961
+                                    +13 1 ...nce.jl; ...nown_call_p; line: 2795
+                                    +14 1 ...ence.jl; isconstantfunc; line: 556
+                                     +4 1 ...nce.jl; typeinf; line: 1549
+                                     +5 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                     +6 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                     +7 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                     +8 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                     +9 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +10 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +11 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +12 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +13 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +14 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +15 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +16 1 ...nce.jl; ...f_elim_pass; line: 2930
+                                    +17 1 ...nce.jl; is_known_call; line: 2787
+                                    +18 1 ...ence.jl; isconstantfunc; line: 591
+                                    +19 1 ...ence.jl; is_global; line: 58
+                                    +20 1 ...ence.jl; ...ic_parameter; line: 39
+                                2 ...ference.jl; abstract_eval_call; line: 903
+                                 2 ...erence.jl; abstract_call; line: 809
+                                  2 ...erence.jl; abstract_call_gf; line: 726
+                                   1 ...rence.jl; typeinf; line: 1472
+                                    1 ...rence.jl; abstract_eval_arg; line: 866
+                                     1 ...rence.jl; abstract_eval; line: 946
+                                      1 ...ence.jl; abstract_eval; line: 935
+                                       1 ...ence.jl; ...ct_eval_call; line: 903
+                                        1 ...ence.jl; abstract_call; line: 819
+                                     +1 1 ...ence.jl; ...ract_call_gf; line: 678
+                                     +2 1 ...tion.jl; _methods; line: 116
+                                     +3 1 ...tion.jl; _methods; line: 116
+                                     +4 1 ...tion.jl; _methods; line: 99
+                                   1 ...rence.jl; typeinf; line: 1544
+                                    1 ...rence.jl; inlining_pass; line: 2553
+                                     1 ...ence.jl; inlining_pass; line: 2590
+                                      1 ...ence.jl; inlining_pass; line: 2590
+                                       1 ...ence.jl; inlining_pass; line: 2656
+                                        1 ...nce.jl; inlineable; line: 2076
+                                     +1 1 ...tion.jl; _methods; line: 116
+                                     +2 1 ...tion.jl; _methods; line: 116
+                                     +3 1 ...tion.jl; _methods; line: 99
+                             1 ./inference.jl; typeinf; line: 1548
+                              1 ...ference.jl; tuple_elim_pass; line: 2970
+                               1 ...ference.jl; ...undant_temp_vars; line: 2832
+                                1 ...erence.jl; local_typeof; line: 2848
+                  1 ./inference.jl; abstract_eval_call; line: 903
+                   1 ./inference.jl; abstract_call; line: 819
+                    1 ./inference.jl; abstract_call_gf; line: 726
+                     1 ./inference.jl; typeinf; line: 1242
+                5 ./inference.jl; abstract_interpret; line: 1107
+                 5 ./inference.jl; abstract_eval; line: 935
+                  4 ./inference.jl; abstract_eval_call; line: 878
+                   4 ./inference.jl; abstract_eval_arg; line: 866
+                    4 ./inference.jl; abstract_eval; line: 935
+                     1 ./inference.jl; abstract_eval_call; line: 878
+                      1 ./inference.jl; abstract_eval_arg; line: 866
+                       1 ./inference.jl; abstract_eval; line: 935
+                        1 ./inference.jl; abstract_eval_call; line: 903
+                         1 ./inference.jl; abstract_call; line: 819
+                          1 ./inference.jl; abstract_call_gf; line: 726
+                           1 ./inference.jl; typeinf; line: 1242
+                     3 ./inference.jl; abstract_eval_call; line: 903
+                      3 ./inference.jl; abstract_call; line: 819
+                       3 ./inference.jl; abstract_call_gf; line: 726
+                        1 ./inference.jl; typeinf; line: 1472
+                         1 ./inference.jl; abstract_eval_arg; line: 866
+                          1 ./inference.jl; abstract_eval; line: 935
+                           1 ./inference.jl; abstract_eval_call; line: 878
+                            1 ./inference.jl; abstract_eval_arg; line: 866
+                             1 ./inference.jl; abstract_eval; line: 935
+                              1 ./inference.jl; abstract_eval_call; line: 903
+                               1 ...ference.jl; abstract_call; line: 819
+                                1 ...ference.jl; abstract_call_gf; line: 726
+                                 1 ...erence.jl; typeinf; line: 1242
+                        1 ./inference.jl; typeinf; line: 1550
+                        1 ./inference.jl; typeinf; line: 1560
+                  1 ./inference.jl; abstract_eval_call; line: 903
+                   1 ./inference.jl; abstract_call; line: 819
+                    1 ./inference.jl; abstract_call_gf; line: 709
+               28 ./inference.jl; typeinf; line: 1472
+                28 ./inference.jl; abstract_eval_arg; line: 866
+                 28 ./inference.jl; abstract_eval; line: 935
+                  26 ./inference.jl; abstract_eval_call; line: 878
+                   26 ./inference.jl; abstract_eval_arg; line: 866
+                    26 ./inference.jl; abstract_eval; line: 935
+                     11 ./inference.jl; abstract_eval_call; line: 878
+                      11 ./inference.jl; abstract_eval_arg; line: 866
+                       11 ./inference.jl; abstract_eval; line: 935
+                        10 ./inference.jl; abstract_eval_call; line: 878
+                         10 ./inference.jl; abstract_eval_arg; line: 866
+                          10 ./inference.jl; abstract_eval; line: 935
+                           10 ./inference.jl; abstract_eval_call; line: 900
+                            10 ./inference.jl; abstract_call_gf; line: 726
+                             10 ...ference.jl; typeinf; line: 1472
+                              10 ...ference.jl; abstract_eval_arg; line: 866
+                               10 ...ference.jl; abstract_eval; line: 935
+                                8 ...ference.jl; abstract_eval_call; line: 878
+                                 8 ...erence.jl; abstract_eval_arg; line: 866
+                                  8 ...erence.jl; abstract_eval; line: 935
+                                   8 ...erence.jl; abstract_eval_call; line: 903
+                                    8 ...rence.jl; abstract_call; line: 819
+                                     8 ...rence.jl; abstract_call_gf; line: 726
+                                      6 ...ence.jl; typeinf; line: 1472
+                                       6 ...ence.jl; ...act_eval_arg; line: 866
+                                        6 ...ence.jl; abstract_eval; line: 935
+                                     +1 6 ...ence.jl; ...ct_eval_call; line: 903
+                                     +2 6 ...ence.jl; abstract_call; line: 819
+                                     +3 6 ...ence.jl; ...ract_call_gf; line: 726
+                                     +4 1 ...nce.jl; typeinf; line: 1298
+                                     +4 1 ...nce.jl; typeinf; line: 1472
+                                     +5 1 ...ence.jl; ...act_eval_arg; line: 866
+                                     +6 1 ...ence.jl; abstract_eval; line: 935
+                                     +7 1 ...ence.jl; ...ct_eval_call; line: 878
+                                     +8 1 ...ence.jl; ...act_eval_arg; line: 866
+                                     +9 1 ...ence.jl; abstract_eval; line: 935
+                                    +10 1 ...ence.jl; ...ct_eval_call; line: 878
+                                    +11 1 ...ence.jl; ...act_eval_arg; line: 866
+                                    +12 1 ...ence.jl; abstract_eval; line: 935
+                                    +13 1 ...ence.jl; ...ct_eval_call; line: 878
+                                    +14 1 ...ence.jl; ...act_eval_arg; line: 866
+                                    +15 1 ...ence.jl; abstract_eval; line: 935
+                                    +16 1 ...ence.jl; ...ct_eval_call; line: 903
+                                    +17 1 ...ence.jl; abstract_call; line: 819
+                                    +18 1 ...ence.jl; ...ract_call_gf; line: 678
+                                    +19 1 ./base.jl; cell_1d; line: 161
+                                     +4 4 ...nce.jl; typeinf; line: 1544
+                                     +5 4 ...nce.jl; inlining_pass; line: 2553
+                                     +6 4 ...nce.jl; inlining_pass; line: 2590
+                                     +7 4 ...nce.jl; inlining_pass; line: 2590
+                                     +8 4 ...nce.jl; inlining_pass; line: 2656
+                                     +9 2 ...nce.jl; inlineable; line: 2271
+                                    +10 2 ...nce.jl; ...lve_globals; line: 1839
+                                    +11 2 ...nce.jl; ...lve_globals; line: 1839
+                                    +12 2 ...nce.jl; ...lve_globals; line: 1839
+                                    +13 2 ...nce.jl; ...lve_globals; line: 1839
+                                    +14 2 ...nce.jl; ...lve_globals; line: 1839
+                                    +15 2 ...nce.jl; ...lve_globals; line: 1839
+                                    +16 1 ...nce.jl; ...lve_globals; line: 1838
+                                    +16 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +17 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +18 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +19 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +20 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +21 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +22 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +23 1 ...nce.jl; ...lve_globals; line: 1799
+                                     +9 2 ...nce.jl; inlineable; line: 2394
+                                    +10 1 ...nce.jl; effect_free; line: 1951
+                                    +11 1 ...ence.jl; isconstantfunc; line: 563
+                                    +10 1 ...nce.jl; effect_free; line: 1961
+                                    +11 1 ...nce.jl; ...nown_call_p; line: 2795
+                                    +12 1 ...ence.jl; isconstantfunc; line: 555
+                                    +13 1 ...ence.jl; _basemod; line: 79
+                                      1 ...ence.jl; typeinf; line: 1544
+                                       1 ...ence.jl; inlining_pass; line: 2553
+                                        1 ...nce.jl; inlining_pass; line: 2590
+                                     +1 1 ...nce.jl; inlining_pass; line: 2656
+                                     +2 1 ...nce.jl; inlineable; line: 2142
+                                      1 ...ence.jl; typeinf; line: 1550
+                                2 ...ference.jl; abstract_eval_call; line: 903
+                                 2 ...erence.jl; abstract_call; line: 809
+                                  2 ...erence.jl; abstract_call_gf; line: 726
+                                   1 ...rence.jl; typeinf; line: 1472
+                                    1 ...rence.jl; abstract_eval_arg; line: 866
+                                     1 ...rence.jl; abstract_eval; line: 946
+                                      1 ...ence.jl; abstract_eval; line: 935
+                                       1 ...ence.jl; ...ct_eval_call; line: 903
+                                        1 ...ence.jl; abstract_call; line: 819
+                                     +1 1 ...ence.jl; ...ract_call_gf; line: 677
+                                   1 ...rence.jl; typeinf; line: 1544
+                                    1 ...rence.jl; inlining_pass; line: 2553
+                                     1 ...ence.jl; inlining_pass; line: 2590
+                                      1 ...ence.jl; inlining_pass; line: 2590
+                                       1 ...ence.jl; inlining_pass; line: 2656
+                                        1 ...nce.jl; inlineable; line: 2028
+                                     +1 1 ./array.jl; getindex; line: 267
+                                     +2 1 ./array.jl; copy!; line: 54
+                                     +3 1 ./array.jl; unsafe_copy!; line: 40
+                        1  ./inference.jl; abstract_eval_call; line: 903
+                         1 ./inference.jl; abstract_call; line: 819
+                          1 ./inference.jl; abstract_call_gf; line: 726
+                           1 ./inference.jl; typeinf; line: 1298
+                     15 ./inference.jl; abstract_eval_call; line: 903
+                      15 ./inference.jl; abstract_call; line: 819
+                       2  ./inference.jl; abstract_call_gf; line: 678
+                        2 ./reflection.jl; _methods; line: 116
+                         2 ./reflection.jl; _methods; line: 116
+                          2 ./reflection.jl; _methods; line: 99
+                       13 ./inference.jl; abstract_call_gf; line: 726
+                        5 ./inference.jl; typeinf; line: 1409
+                         5 ./inference.jl; abstract_interpret; line: 1090
+                          5 ./inference.jl; abstract_eval; line: 935
+                           5 ./inference.jl; abstract_eval_call; line: 903
+                            5 ./inference.jl; abstract_call; line: 819
+                             5 ./inference.jl; abstract_call_gf; line: 726
+                              1 ...ference.jl; typeinf; line: 1514
+                               1 ...ference.jl; stupdate; line: 1161
+                                1 ...erence.jl; stupdate; line: 1167
+                              2 ...ference.jl; typeinf; line: 1544
+                               1 ...ference.jl; inlining_pass; line: 2553
+                                1 ...erence.jl; inlining_pass; line: 2590
+                                 1 ...erence.jl; inlining_pass; line: 2590
+                                  1 ...erence.jl; inlining_pass; line: 2656
+                                   1 ...rence.jl; inlineable; line: 2271
+                                    1 ...rence.jl; resolve_globals; line: 1839
+                                     1 ...ence.jl; resolve_globals; line: 1839
+                                      1 ...ence.jl; resolve_globals; line: 1839
+                                       1 ...ence.jl; resolve_globals; line: 1839
+                                        1 ...nce.jl; ...lve_globals; line: 1837
+                               1 ...ference.jl; inlining_pass; line: 2559
+                                1 ./array.jl; insert!; line: 548
+                                 1 ./array.jl; _growat!; line: 392
+                                  1 ./array.jl; _growat_beg!; line: 402
+                              1 ...ference.jl; typeinf; line: 1548
+                               1 ...ference.jl; tuple_elim_pass; line: 2967
+                                1 ...erence.jl; find_sa_vars; line: 2870
+                                 1 ...ference.jl; contains_is; line: 50
+                              1 ...ference.jl; typeinf; line: 1550
+                        5 ./inference.jl; typeinf; line: 1472
+                         5 ./inference.jl; abstract_eval_arg; line: 866
+                          5 ./inference.jl; abstract_eval; line: 935
+                           5 ./inference.jl; abstract_eval_call; line: 903
+                            5 ./inference.jl; abstract_call; line: 819
+                             5 ./inference.jl; abstract_call_gf; line: 726
+                              1 ...ference.jl; typeinf; line: 1409
+                               1 ...ference.jl; abstract_interpret; line: 1090
+                                1 ...ference.jl; abstract_eval; line: 935
+                                 1 ...erence.jl; abstract_eval_call; line: 878
+                                  1 ...erence.jl; abstract_eval_arg; line: 866
+                                   1 ...erence.jl; abstract_eval; line: 935
+                                    1 ...rence.jl; ...ract_eval_call; line: 878
+                                     1 ...rence.jl; ...ract_eval_arg; line: 866
+                                      1 ...ence.jl; abstract_eval; line: 935
+                                       1 ...ence.jl; ...ct_eval_call; line: 903
+                                        1 ...ence.jl; abstract_call; line: 819
+                                     +1 1 ...ence.jl; ...ract_call_gf; line: 678
+                                     +2 1 ...tion.jl; _methods; line: 116
+                                     +3 1 ...tion.jl; _methods; line: 116
+                                     +4 1 ...tion.jl; _methods; line: 99
+                              3 ...ference.jl; typeinf; line: 1544
+                               3 ...ference.jl; inlining_pass; line: 2553
+                                3 ...erence.jl; inlining_pass; line: 2590
+                                 2 ...erence.jl; inlining_pass; line: 2590
+                                  1 ...erence.jl; inlining_pass; line: 2590
+                                   1 ...rence.jl; inlining_pass; line: 2656
+                                    1 ...rence.jl; inlineable; line: 2386
+                                     1 ...ence.jl; effect_free; line: 2010
+                                      1 ...ence.jl; effect_free; line: 1961
+                                       1 ...ence.jl; is_known_call_p; line: 2796
+                                        1 ...nce.jl; ...ure_builtin; line: 1913
+                                     +1 1 ...ence.jl; contains_is; line: 48
+                                  1 ...erence.jl; inlining_pass; line: 2656
+                                   1 ...rence.jl; inlineable; line: 2076
+                                    1 ...ction.jl; _methods; line: 116
+                                     1 ...ction.jl; _methods; line: 116
+                                      1 ...ction.jl; _methods; line: 99
+                                 1 ...erence.jl; inlining_pass; line: 2656
+                                  1 ...erence.jl; inlineable; line: 2142
+                              1 ...ference.jl; typeinf; line: 1550
+                        2 ./inference.jl; typeinf; line: 1544
+                         2 ./inference.jl; inlining_pass; line: 2553
+                          2 ./inference.jl; inlining_pass; line: 2590
+                           1 ./inference.jl; inlining_pass; line: 2590
+                            1 ./inference.jl; inlining_pass; line: 2656
+                             1 ./inference.jl; inlineable; line: 2142
+                           1 ./inference.jl; inlining_pass; line: 2656
+                            1 ./inference.jl; inlineable; line: 2136
+                             1 ./inference.jl; typeinf; line: 1242
+                        1 ./inference.jl; typeinf; line: 1550
+                  2  ./inference.jl; abstract_eval_call; line: 903
+                   2 ./inference.jl; abstract_call; line: 819
+                    2 ./inference.jl; abstract_call_gf; line: 726
+                     2 ./inference.jl; typeinf; line: 1544
+                      2 ./inference.jl; inlining_pass; line: 2553
+                       2 ./inference.jl; inlining_pass; line: 2590
+                        2 ./inference.jl; inlining_pass; line: 2656
+                         2 ./inference.jl; inlineable; line: 2142
+               13 ./inference.jl; typeinf; line: 1544
+                13 ./inference.jl; inlining_pass; line: 2553
+                 13 ./inference.jl; inlining_pass; line: 2590
+                  9 ./inference.jl; inlining_pass; line: 2590
+                   1 ./inference.jl; inlining_pass; line: 2590
+                    1 ./inference.jl; inlining_pass; line: 2590
+                     1 ./inference.jl; inlining_pass; line: 2656
+                      1 ./inference.jl; inlineable; line: 2384
+                       1 ./inference.jl; occurs_more; line: 1852
+                   8 ./inference.jl; inlining_pass; line: 2656
+                    3 ./inference.jl; inlineable; line: 2136
+                     2 ./inference.jl; typeinf; line: 1242
+                     1 ./inference.jl; typeinf; line: 1560
+                    1 ./inference.jl; inlineable; line: 2193
+                    1 ./inference.jl; inlineable; line: 2256
+                     1 ./inference.jl; unique_name; line: 2749
+                      1 ./inference.jl; contains_is1; line: 2726
+                    1 ./inference.jl; inlineable; line: 2271
+                     1 ./inference.jl; resolve_globals; line: 1839
+                      1 ./inference.jl; resolve_globals; line: 1833
+                       1 ./inference.jl; resolve_globals; line: 1839
+                        1 ./inference.jl; resolve_globals; line: 1804
+                         1 ./inference.jl; resolve_relative; line: 0
+                    1 ./inference.jl; inlineable; line: 2386
+                     1 ./inference.jl; effect_free; line: 1947
+                    1 ./inference.jl; inlineable; line: 2425
+                  4 ./inference.jl; inlining_pass; line: 2656
+                   1 ./inference.jl; inlineable; line: 2049
+                   1 ./inference.jl; inlineable; line: 2076
+                    1 ./reflection.jl; _methods; line: 116
+                     1 ./reflection.jl; _methods; line: 116
+                      1 ./reflection.jl; _methods; line: 99
+                   2 ./inference.jl; inlineable; line: 2136
+                    1 ./inference.jl; typeinf; line: 1544
+                     1 ./inference.jl; inlining_pass; line: 2553
+                      1 ./inference.jl; inlining_pass; line: 2590
+                       1 ./inference.jl; inlining_pass; line: 2590
+                        1 ./inference.jl; inlining_pass; line: 2656
+                         1 ./inference.jl; inlineable; line: 2136
+                          1 ./inference.jl; typeinf; line: 1242
+                    1 ./inference.jl; typeinf; line: 1560
+               2  ./inference.jl; typeinf; line: 1548
+                2 ./inference.jl; tuple_elim_pass; line: 2970
+                 1 ./inference.jl; remove_redundant_temp_vars; line: 2823
+                  1 ./inference.jl; is_var_assigned; line: 2800
+                   1 ./abstractarray.jl; next; line: 246
+                 1 ./inference.jl; remove_redundant_temp_vars; line: 2840
+                  1 ./inference.jl; sym_replace; line: 1755
+                   1 ./inference.jl; sym_replace; line: 0
+               1  ./inference.jl; typeinf; line: 1549
+                1 ./inference.jl; tupleref_elim_pass; line: 2930
+                 1 ./inference.jl; tupleref_elim_pass; line: 2930
+                  1 ./inference.jl; tupleref_elim_pass; line: 2930
+                   1 ./inference.jl; tupleref_elim_pass; line: 2930
+                    1 ./inference.jl; tupleref_elim_pass; line: 2930
+               2  ./inference.jl; typeinf; line: 1550
+              1  .../src/dates/io.jl; slotformat; line: 127
+               1 ./array.jl; getindex; line: 267
+                1 ./array.jl; copy!; line: 54
+                 1 ./array.jl; unsafe_copy!; line: 47
+              1  .../src/dates/io.jl; slotformat; line: 128
+               1 ./string.jl; lpad; line: 1277
+              19 .../src/dates/io.jl; slotformat; line: 140
+               5 ./inference.jl; typeinf_ext; line: 1216
+                1 ./inference.jl; typeinf; line: 1409
+                 1 ./inference.jl; abstract_interpret; line: 1107
+                  1 ./inference.jl; abstract_eval; line: 935
+                   1 ./inference.jl; abstract_eval_call; line: 903
+                    1 ./inference.jl; abstract_call; line: 819
+                     1 ./inference.jl; abstract_call_gf; line: 726
+                      1 ./inference.jl; typeinf; line: 1242
+                2 ./inference.jl; typeinf; line: 1544
+                 2 ./inference.jl; inlining_pass; line: 2553
+                  2 ./inference.jl; inlining_pass; line: 2590
+                   1 ./inference.jl; inlining_pass; line: 2590
+                    1 ./inference.jl; inlining_pass; line: 2656
+                     1 ./inference.jl; inlineable; line: 2076
+                      1 ./reflection.jl; _methods; line: 116
+                       1 ./reflection.jl; _methods; line: 116
+                        1 ./reflection.jl; _methods; line: 99
+                   1 ./inference.jl; inlining_pass; line: 2656
+                    1 ./inference.jl; inlineable; line: 2256
+                     1 ./inference.jl; unique_name; line: 2749
+                      1 ./inference.jl; contains_is1; line: 2726
+                2 ./inference.jl; typeinf; line: 1550
+              3  string.jl; *; line: 76
+               3 utf8.jl; string; line: 138
+                1 ./array.jl; append!; line: 477
+                2 ./array.jl; append!; line: 479
+                 1 ./array.jl; copy!; line: 54
+                  1 ./array.jl; unsafe_copy!; line: 0
+             42  ...s/src/dates/io.jl; format; line: 151
+              1  ./array.jl; getindex; line: 246
+              16 ./inference.jl; typeinf_ext; line: 1216
+               7 ./inference.jl; typeinf; line: 1472
+                7 ./inference.jl; abstract_eval_arg; line: 866
+                 7 ./inference.jl; abstract_eval; line: 935
+                  7 ./inference.jl; abstract_eval_call; line: 903
+                   7 ./inference.jl; abstract_call; line: 819
+                    7 ./inference.jl; abstract_call; line: 819
+                     7 ./inference.jl; abstract_call_gf; line: 726
+                      6 ./inference.jl; typeinf; line: 1472
+                       6 ./inference.jl; abstract_eval_arg; line: 866
+                        6 ./inference.jl; abstract_eval; line: 935
+                         6 ./inference.jl; abstract_eval_call; line: 903
+                          6 ./inference.jl; abstract_call; line: 819
+                           6 ./inference.jl; abstract_call; line: 819
+                            6 ./inference.jl; abstract_call_gf; line: 726
+                             2 ./inference.jl; typeinf; line: 1409
+                              2 ...ference.jl; abstract_interpret; line: 1107
+                               2 ...ference.jl; abstract_eval; line: 935
+                                2 ...ference.jl; abstract_eval_call; line: 878
+                                 2 ...erence.jl; abstract_eval_arg; line: 866
+                                  1 ...erence.jl; abstract_eval; line: 919
+                                   1 ...rence.jl; ...ct_eval_symbol; line: 1066
+                                    1 ...rence.jl; ...t_eval_global; line: 1027
+                                     1 ...ence.jl; ...eval_constant; line: 1006
+                                  1 ...erence.jl; abstract_eval; line: 935
+                                   1 ...erence.jl; abstract_eval_call; line: 878
+                                    1 ...rence.jl; abstract_eval_arg; line: 866
+                                     1 ...rence.jl; abstract_eval; line: 935
+                                      1 ...ence.jl; ...act_eval_call; line: 903
+                                       1 ...ence.jl; abstract_call; line: 819
+                                        1 ...ence.jl; ...ract_call_gf; line: 726
+                                     +1 1 ...nce.jl; typeinf; line: 1242
+                             3 ./inference.jl; typeinf; line: 1544
+                              3 ...ference.jl; inlining_pass; line: 2553
+                               3 ...ference.jl; inlining_pass; line: 2590
+                                1 ...erence.jl; inlining_pass; line: 2590
+                                 1 ...erence.jl; inlining_pass; line: 2656
+                                  1 ...erence.jl; inlineable; line: 2136
+                                   1 ...rence.jl; typeinf; line: 1242
+                                2 ...erence.jl; inlining_pass; line: 2656
+                                 1 ...erence.jl; inlineable; line: 2136
+                                  1 ...erence.jl; typeinf; line: 1242
+                                 1 ...erence.jl; inlineable; line: 2386
+                                  1 ...erence.jl; effect_free; line: 2010
+                                   1 ...rence.jl; effect_free; line: 2010
+                                    1 ...rence.jl; effect_free; line: 1951
+                                     1 ...rence.jl; isconstantfunc; line: 563
+                             1 ./inference.jl; typeinf; line: 1550
+                      1 ./inference.jl; typeinf; line: 1544
+                       1 ./inference.jl; inlining_pass; line: 2553
+                        1 ./inference.jl; inlining_pass; line: 2590
+                         1 ./inference.jl; inlining_pass; line: 2656
+                          1 ./inference.jl; inlineable; line: 2142
+               8 ./inference.jl; typeinf; line: 1544
+                8 ./inference.jl; inlining_pass; line: 2553
+                 8 ./inference.jl; inlining_pass; line: 2590
+                  8 ./inference.jl; inlining_pass; line: 2656
+                   1 ./inference.jl; inlineable; line: 2164
+                    1 ./inference.jl; inline_worthy; line: 2509
+                     1 ./inference.jl; occurs_more; line: 1852
+                   7 ./inference.jl; inlineable; line: 2222
+                    2 ./inference.jl; typeinf_ext; line: 1216
+                     1 ./inference.jl; typeinf; line: 1550
+                     1 ./inference.jl; typeinf; line: 1560
+               1 ./inference.jl; typeinf; line: 1550
+              12 string.jl; *; line: 76
+               2 ./string.jl; print_to_string; line: 21
+               2 ./string.jl; print_to_string; line: 22
+                2 ./iobuffer.jl; truncate; line: 136
+               4 ./string.jl; print_to_string; line: 24
+                1 ./ascii.jl; print; line: 93
+                 1 ./iobuffer.jl; write_sub; line: 252
+                  1 ./iobuffer.jl; write; line: 242
+                1 ./string.jl; print; line: 600
+                 1 ./string.jl; write; line: 598
+                  1 ./iobuffer.jl; write_sub; line: 252
+                   1 ./iobuffer.jl; write; line: 241
+               4 ./string.jl; print_to_string; line: 26
+                1 ./iobuffer.jl; takebuf_array; line: 207
+                3 ./string.jl; bytestring; line: 34
+           15    ...s/src/Requests.jl; process_response; line: 230
+            11 ...ts/src/Requests.jl; ResponseParser; line: 68
+             11 ...src/HttpParser.jl; Parser; line: 48
+              8 ./inference.jl; typeinf_ext; line: 1216
+               4 ./inference.jl; typeinf; line: 1472
+                4 ./inference.jl; abstract_eval_arg; line: 866
+                 4 ./inference.jl; abstract_eval; line: 946
+                  4 ./inference.jl; abstract_eval; line: 935
+                   4 ./inference.jl; abstract_eval_call; line: 903
+                    4 ./inference.jl; abstract_call; line: 819
+                     4 ./inference.jl; abstract_call_gf; line: 678
+                      4 ./reflection.jl; _methods; line: 116
+                       4 ./reflection.jl; _methods; line: 116
+                        4 ./reflection.jl; _methods; line: 99
+               4 ./inference.jl; typeinf; line: 1544
+                4 ./inference.jl; inlining_pass; line: 2553
+                 4 ./inference.jl; inlining_pass; line: 2590
+                  4 ./inference.jl; inlining_pass; line: 2590
+                   4 ./inference.jl; inlining_pass; line: 2656
+                    4 ./inference.jl; inlineable; line: 2076
+                     4 ./reflection.jl; _methods; line: 116
+                      4 ./reflection.jl; _methods; line: 116
+                       4 ./reflection.jl; _methods; line: 99
+            2  ...ts/src/Requests.jl; ResponseParser; line: 69
+             1 ./inference.jl; typeinf_ext; line: 1216
+              1 ./inference.jl; typeinf; line: 1550
+            2  ...ts/src/Requests.jl; ResponseParser; line: 71
+           10775 ...s/src/Requests.jl; process_response; line: 232
+            10774 stream.jl; readavailable; line: 709
+             10774 stream.jl; wait_readnb; line: 316
+              1     stream.jl; stream_wait; line: 261
+               1 stream.jl; preserve_handle; line: 17
+              10769 stream.jl; stream_wait; line: 263
+               1     ./task.jl; wait; line: 193
+               10768 ./task.jl; wait; line: 194
+                10762 ./task.jl; wait; line: 273
+                 10762 ./stream.jl; process_events; line: 537
+                  18 ./inference.jl; typeinf_ext; line: 1216
+                   9 ./inference.jl; typeinf; line: 1409
+                    2 ./inference.jl; abstract_interpret; line: 1090
+                     2 ./inference.jl; abstract_eval; line: 935
+                      2 ./inference.jl; abstract_eval_call; line: 903
+                       2 ./inference.jl; abstract_call; line: 819
+                        2 ./inference.jl; abstract_call_gf; line: 726
+                         1 ./inference.jl; typeinf; line: 1514
+                         1 ./inference.jl; typeinf; line: 1560
+                    7 ./inference.jl; abstract_interpret; line: 1107
+                     7 ./inference.jl; abstract_eval; line: 935
+                      3 ./inference.jl; abstract_eval_call; line: 878
+                       3 ./inference.jl; abstract_eval_arg; line: 866
+                        3 ./inference.jl; abstract_eval; line: 935
+                         3 ./inference.jl; abstract_eval_call; line: 903
+                          1 ./inference.jl; abstract_call; line: 809
+                           1 ./inference.jl; abstract_call_gf; line: 726
+                            1 ./inference.jl; typeinf; line: 1544
+                             1 ./inference.jl; inlining_pass; line: 2553
+                              1 ...ference.jl; inlining_pass; line: 2590
+                               1 ...ference.jl; inlining_pass; line: 2590
+                                1 ...erence.jl; inlining_pass; line: 2656
+                                 1 ...erence.jl; inlineable; line: 2136
+                                  1 ...erence.jl; typeinf; line: 1242
+                          2 ./inference.jl; abstract_call; line: 819
+                           1 ./inference.jl; abstract_call_gf; line: 678
+                            1 ...flection.jl; _methods; line: 116
+                             1 ...flection.jl; _methods; line: 116
+                              1 ...flection.jl; _methods; line: 99
+                           1 ./inference.jl; abstract_call_gf; line: 726
+                            1 ./inference.jl; typeinf; line: 1242
+                      4 ./inference.jl; abstract_eval_call; line: 903
+                       4 ./inference.jl; abstract_call; line: 819
+                        4 ./inference.jl; abstract_call_gf; line: 726
+                         1 ./inference.jl; typeinf; line: 1472
+                          1 ./inference.jl; abstract_eval_arg; line: 866
+                           1 ./inference.jl; abstract_eval; line: 935
+                            1 ./inference.jl; abstract_eval_call; line: 878
+                             1 ./inference.jl; abstract_eval_arg; line: 866
+                              1 ./inference.jl; abstract_eval; line: 935
+                               1 ...ference.jl; abstract_eval_call; line: 903
+                                1 ...ference.jl; abstract_call; line: 819
+                                 1 ...erence.jl; abstract_call_gf; line: 678
+                                  1 ...ection.jl; _methods; line: 116
+                                   1 ...ection.jl; _methods; line: 116
+                                    1 ...ection.jl; _methods; line: 99
+                         1 ./inference.jl; typeinf; line: 1544
+                          1 ./inference.jl; inlining_pass; line: 2553
+                           1 ./inference.jl; inlining_pass; line: 2590
+                            1 ./inference.jl; inlining_pass; line: 2656
+                             1 ./inference.jl; inlineable; line: 2076
+                              1 ...flection.jl; _methods; line: 116
+                               1 ...lection.jl; _methods; line: 116
+                                1 ...lection.jl; _methods; line: 99
+                         2 ./inference.jl; typeinf; line: 1550
+                   2 ./inference.jl; typeinf; line: 1472
+                    2 ./inference.jl; abstract_eval_arg; line: 866
+                     2 ./inference.jl; abstract_eval; line: 935
+                      2 ./inference.jl; abstract_eval_call; line: 903
+                       2 ./inference.jl; abstract_call; line: 819
+                        2 ./inference.jl; abstract_call_gf; line: 726
+                         1 ./inference.jl; typeinf; line: 1409
+                          1 ./inference.jl; abstract_interpret; line: 1107
+                           1 ./inference.jl; abstract_eval; line: 935
+                            1 ./inference.jl; abstract_eval_call; line: 878
+                             1 ./inference.jl; abstract_eval_arg; line: 866
+                              1 ./inference.jl; abstract_eval; line: 935
+                               1 ...ference.jl; abstract_eval_call; line: 903
+                                1 ...ference.jl; abstract_call; line: 819
+                                 1 ...erence.jl; abstract_call_gf; line: 678
+                                  1 ...ection.jl; _methods; line: 116
+                                   1 ...ection.jl; _methods; line: 116
+                                    1 ...ection.jl; _methods; line: 99
+                         1 ./inference.jl; typeinf; line: 1550
+                   5 ./inference.jl; typeinf; line: 1544
+                    5 ./inference.jl; inlining_pass; line: 2553
+                     5 ./inference.jl; inlining_pass; line: 2590
+                      5 ./inference.jl; inlining_pass; line: 2656
+                       1 ./inference.jl; inlineable; line: 2076
+                        1 ./reflection.jl; _methods; line: 116
+                         1 ./reflection.jl; _methods; line: 116
+                          1 ./reflection.jl; _methods; line: 99
+                       1 ./inference.jl; inlineable; line: 2136
+                        1 ./inference.jl; typeinf; line: 1544
+                         1 ./inference.jl; inlining_pass; line: 2553
+                          1 ./inference.jl; inlining_pass; line: 2590
+                           1 ./inference.jl; inlining_pass; line: 2590
+                            1 ./inference.jl; inlining_pass; line: 2656
+                             1 ./inference.jl; inlineable; line: 2136
+                              1 ...ference.jl; typeinf; line: 1560
+                       1 ./inference.jl; inlineable; line: 2142
+                       1 ./inference.jl; inlineable; line: 2386
+                        1 ./inference.jl; effect_free; line: 2010
+                         1 ./inference.jl; effect_free; line: 2010
+                          1 ./inference.jl; effect_free; line: 1947
+                       1 ./inference.jl; inlineable; line: 2434
+                   2 ./inference.jl; typeinf; line: 1550
+                  7  stream.jl; _uv_hook_alloc_buf; line: 360
+                   7 stream.jl; alloc_request; line: 355
+                    7 ./iobuffer.jl; ensureroom; line: 182
+                     7 ./array.jl; resize!; line: 506
+                  4  stream.jl; _uv_hook_close; line: 475
+                   3 ./task.jl; __notify#12__; line: 205
+                    3 ./task.jl; __notify#13__; line: 207
+                     1 task.jl; schedule; line: 247
+                     1 task.jl; schedule; line: 249
+                      1 ./task.jl; enq_work; line: 230
+                  1  stream.jl; _uv_hook_readcb; line: 395
+                  1  stream.jl; _uv_hook_readcb; line: 407
+                   1 stream.jl; notify_filled; line: 383
+                  5  stream.jl; _uv_hook_readcb; line: 408
+                   5 ./task.jl; __notify#12__; line: 205
+                    4 ./task.jl; __notify#13__; line: 207
+                     4 task.jl; schedule; line: 247
+                2     ./task.jl; wait; line: 280
+                 1 ./array.jl; shift!; line: 539
+                1     ./task.jl; wait; line: 283
+                3     ./task.jl; wait; line: 287
+                 3 ./stream.jl; process_events; line: 537
+                  1 stream.jl; _uv_hook_alloc_buf; line: 360
+                   1 stream.jl; alloc_request; line: 355
+                    1 ./iobuffer.jl; ensureroom; line: 182
+                     1 ./array.jl; resize!; line: 506
+              4     stream.jl; stream_wait; line: 265
+               4 stream.jl; unpreserve_handle; line: 18
+                1 ./dict.jl; pop!; line: 280
+                2 ./promotion.jl; ==; line: 0
+                1 dict.jl; getindex; line: 229
+            1     stream.jl; readavailable; line: 710
+             1 ./iobuffer.jl; takebuf_array; line: 207
+           3     ...s/src/Requests.jl; process_response; line: 234
+            2 ...ts/src/Requests.jl; add_data; line: 204
+             2 ...src/HttpParser.jl; http_parser_execute; line: 106
+          1     array.jl; getindex; line: 123
+          1     dict.jl; Dict; line: 319
+           1 ./array.jl; zeros; line: 169
+         1     ...ser/src/parser.jl; parse_url; line: 174
+         1     ...ser/src/parser.jl; parse_url; line: 186
+         1     ...ser/src/parser.jl; parse_url; line: 212
+         1     ...ser/src/parser.jl; parse_url; line: 290
+          1 ...arser/src/parser.jl; parse_authority; line: 110
+           1 ...arser/src/parser.jl; is_host_char; line: 8
+       199   ...a_test2_parallel.jl; checkSegment; line: 22
+        62 ./inference.jl; typeinf_ext; line: 1216
+         60 ./inference.jl; typeinf; line: 1472
+          60 ./inference.jl; abstract_eval_arg; line: 866
+           60 ./inference.jl; abstract_eval; line: 935
+            60 ./inference.jl; abstract_eval_call; line: 903
+             60 ./inference.jl; abstract_call; line: 819
+              60 ./inference.jl; abstract_call_gf; line: 726
+               1  ./inference.jl; typeinf; line: 1409
+                1 ./inference.jl; abstract_interpret; line: 1107
+                 1 ./inference.jl; abstract_eval; line: 935
+                  1 ./inference.jl; abstract_eval_call; line: 903
+                   1 ./inference.jl; abstract_call; line: 818
+                    1 ./reflection.jl; isgeneric; line: 90
+               50 ./inference.jl; typeinf; line: 1472
+                50 ./inference.jl; abstract_eval_arg; line: 866
+                 50 ./inference.jl; abstract_eval; line: 935
+                  4  ./inference.jl; abstract_eval_call; line: 878
+                   4 ./inference.jl; abstract_eval_arg; line: 866
+                    4 ./inference.jl; abstract_eval; line: 935
+                     4 ./inference.jl; abstract_eval_call; line: 903
+                      4 ./inference.jl; abstract_call; line: 809
+                       4 ./inference.jl; abstract_call_gf; line: 726
+                        4 ./inference.jl; typeinf; line: 1472
+                         4 ./inference.jl; abstract_eval_arg; line: 866
+                          4 ./inference.jl; abstract_eval; line: 935
+                           2 ./inference.jl; abstract_eval_call; line: 899
+                            2 ./reflection.jl; _methods; line: 99
+                           2 ./inference.jl; abstract_eval_call; line: 900
+                            2 ./inference.jl; abstract_call_gf; line: 726
+                             1 ./inference.jl; typeinf; line: 1472
+                              1 ./inference.jl; abstract_eval_arg; line: 866
+                               1 ...ference.jl; abstract_eval; line: 946
+                                1 ...ference.jl; abstract_eval; line: 935
+                                 1 ...erence.jl; abstract_eval_call; line: 903
+                                  1 ...erence.jl; abstract_call; line: 819
+                                   1 ...erence.jl; abstract_call_gf; line: 678
+                                    1 ...ction.jl; _methods; line: 116
+                                     1 ...ction.jl; _methods; line: 116
+                                      1 ...ction.jl; _methods; line: 99
+                             1 ./inference.jl; typeinf; line: 1544
+                              1 ...ference.jl; inlining_pass; line: 2553
+                               1 ...ference.jl; inlining_pass; line: 2590
+                                1 ...erence.jl; inlining_pass; line: 2590
+                                 1 ...erence.jl; inlining_pass; line: 2656
+                                  1 ...erence.jl; inlineable; line: 2076
+                                   1 ...ection.jl; _methods; line: 116
+                                    1 ...ction.jl; _methods; line: 116
+                                     1 ...ction.jl; _methods; line: 99
+                  46 ./inference.jl; abstract_eval_call; line: 903
+                   46 ./inference.jl; abstract_call; line: 819
+                    46 ./inference.jl; abstract_call_gf; line: 726
+                     44 ./inference.jl; typeinf; line: 1409
+                      43 ./inference.jl; abstract_interpret; line: 1090
+                       43 ./inference.jl; abstract_eval; line: 935
+                        43 ./inference.jl; abstract_eval_call; line: 903
+                         43 ./inference.jl; abstract_call; line: 819
+                          43 ./inference.jl; abstract_call_gf; line: 726
+                           1  ./inference.jl; typeinf; line: 1298
+                           11 ./inference.jl; typeinf; line: 1409
+                            4 ./inference.jl; abstract_interpret; line: 1090
+                             4 ./inference.jl; abstract_eval; line: 935
+                              4 ./inference.jl; abstract_eval_call; line: 903
+                               3 ...ference.jl; abstract_call; line: 819
+                                1 ...ference.jl; abstract_call_gf; line: 678
+                                 1 ...ection.jl; _methods; line: 116
+                                  1 ...ection.jl; _methods; line: 116
+                                   1 ...ection.jl; _methods; line: 99
+                                2 ...ference.jl; abstract_call_gf; line: 726
+                                 1 ...erence.jl; typeinf; line: 1409
+                                  1 ...erence.jl; abstract_interpret; line: 1107
+                                   1 ...erence.jl; abstract_eval; line: 935
+                                    1 ...rence.jl; ...ract_eval_call; line: 903
+                                     1 ...rence.jl; abstract_call; line: 819
+                                      1 ...ence.jl; abstract_call_gf; line: 726
+                                       1 ...ence.jl; typeinf; line: 1550
+                                 1 ...erence.jl; typeinf; line: 1550
+                               1 ...ference.jl; abstract_call; line: 860
+                                1 ...ference.jl; builtin_tfunction; line: 525
+                            7 ./inference.jl; abstract_interpret; line: 1107
+                             7 ./inference.jl; abstract_eval; line: 935
+                              4 ./inference.jl; abstract_eval_call; line: 878
+                               3 ...ference.jl; abstract_eval_arg; line: 866
+                                3 ...ference.jl; abstract_eval; line: 935
+                                 3 ...erence.jl; abstract_eval_call; line: 903
+                                  3 ...erence.jl; abstract_call; line: 819
+                                   3 ...erence.jl; abstract_call_gf; line: 678
+                                    3 ...ction.jl; _methods; line: 116
+                                     2 ...ction.jl; _methods; line: 116
+                                      2 ...ction.jl; _methods; line: 99
+                              3 ./inference.jl; abstract_eval_call; line: 903
+                               3 ...ference.jl; abstract_call; line: 819
+                                3 ...ference.jl; abstract_call_gf; line: 726
+                                 1 ...erence.jl; typeinf; line: 1409
+                                  1 ...erence.jl; abstract_interpret; line: 1090
+                                   1 ...erence.jl; abstract_eval; line: 935
+                                    1 ...rence.jl; ...ract_eval_call; line: 903
+                                     1 ...rence.jl; abstract_call; line: 819
+                                      1 ...ence.jl; abstract_call_gf; line: 726
+                                       1 ...ence.jl; typeinf; line: 1544
+                                        1 ...nce.jl; inlining_pass; line: 2553
+                                     +1 1 ...nce.jl; inlining_pass; line: 2590
+                                     +2 1 ...nce.jl; inlining_pass; line: 2656
+                                     +3 1 ...nce.jl; inlineable; line: 2127
+                                 2 ...erence.jl; typeinf; line: 1544
+                                  2 ...erence.jl; inlining_pass; line: 2553
+                                   2 ...rence.jl; inlining_pass; line: 2590
+                                    1 ...rence.jl; inlining_pass; line: 2590
+                                     1 ...ence.jl; inlining_pass; line: 2590
+                                      1 ...ence.jl; inlining_pass; line: 2590
+                                       1 ...ence.jl; inlining_pass; line: 2656
+                                        1 ...nce.jl; inlineable; line: 2271
+                                     +1 1 ...nce.jl; ...lve_globals; line: 1839
+                                     +2 1 ...nce.jl; ...lve_globals; line: 1839
+                                     +3 1 ...nce.jl; ...lve_globals; line: 1839
+                                     +4 1 ...nce.jl; ...lve_globals; line: 1804
+                                     +5 1 ...nce.jl; ...ve_relative; line: 1784
+                                    1 ...rence.jl; inlining_pass; line: 2656
+                                     1 ...ence.jl; inlineable; line: 2420
+                                      1 ...ence.jl; sym_replace; line: 1755
+                                       1 ...ence.jl; sym_replace; line: 1755
+                                        1 ...nce.jl; sym_replace; line: 1755
+                                     +1 1 ...nce.jl; sym_replace; line: 1731
+                           13 ./inference.jl; typeinf; line: 1472
+                            13 ./inference.jl; abstract_eval_arg; line: 866
+                             13 ./inference.jl; abstract_eval; line: 935
+                              13 ...ference.jl; abstract_eval_call; line: 903
+                               13 ...ference.jl; abstract_call; line: 819
+                                13 ...erence.jl; abstract_call_gf; line: 726
+                                 11 ...erence.jl; typeinf; line: 1409
+                                  11 ...rence.jl; ...ract_interpret; line: 1107
+                                   10 ...rence.jl; abstract_eval; line: 935
+                                    10 ...rence.jl; ...act_eval_call; line: 903
+                                     10 ...ence.jl; abstract_call; line: 819
+                                      2 ...ence.jl; abstract_call_gf; line: 678
+                                       1 ...tion.jl; _methods; line: 109
+                                        1 ...tion.jl; _methods; line: 109
+                                     +1 1 ...tion.jl; _methods; line: 116
+                                     +2 1 ...tion.jl; _methods; line: 99
+                                       1 ...tion.jl; _methods; line: 116
+                                        1 ...tion.jl; _methods; line: 116
+                                     +1 1 ...tion.jl; _methods; line: 99
+                                      8 ...ence.jl; abstract_call_gf; line: 726
+                                       8 ...ence.jl; typeinf; line: 1409
+                                        8 ...nce.jl; ...t_interpret; line: 1107
+                                     +1 8 ...ence.jl; abstract_eval; line: 935
+                                     +2 8 ...ence.jl; ...ct_eval_call; line: 903
+                                     +3 8 ...ence.jl; abstract_call; line: 819
+                                     +4 8 ...ence.jl; ...ract_call_gf; line: 726
+                                     +5 6 ...nce.jl; typeinf; line: 1472
+                                     +6 6 ...ence.jl; ...act_eval_arg; line: 866
+                                     +7 6 ...ence.jl; abstract_eval; line: 935
+                                     +8 6 ...ence.jl; ...ct_eval_call; line: 878
+                                     +9 6 ...ence.jl; ...act_eval_arg; line: 866
+                                    +10 6 ...ence.jl; abstract_eval; line: 935
+                                    +11 6 ...ence.jl; ...ct_eval_call; line: 878
+                                    +12 6 ...ence.jl; ...act_eval_arg; line: 866
+                                    +13 6 ...ence.jl; abstract_eval; line: 935
+                                    +14 6 ...ence.jl; ...ct_eval_call; line: 903
+                                    +15 6 ...ence.jl; abstract_call; line: 819
+                                    +16 6 ...ence.jl; abstract_call; line: 819
+                                    +17 6 ...ence.jl; ...ract_call_gf; line: 726
+                                    +18 6 ...nce.jl; typeinf; line: 1472
+                                    +19 6 ...ence.jl; ...act_eval_arg; line: 866
+                                    +20 6 ...ence.jl; abstract_eval; line: 935
+                                    +21 6 ...ence.jl; ...ct_eval_call; line: 903
+                                    +22 6 ...ence.jl; abstract_call; line: 819
+                                    +23 6 ...ence.jl; abstract_call; line: 819
+                                    +24 6 ...ence.jl; ...ract_call_gf; line: 726
+                                    +25 2 ...nce.jl; typeinf; line: 1409
+                                    +26 1 ...nce.jl; ...t_interpret; line: 1090
+                                    +27 1 ...ence.jl; abstract_eval; line: 935
+                                    +28 1 ...ence.jl; ...ct_eval_call; line: 903
+                                    +29 1 ...ence.jl; abstract_call; line: 819
+                                    +30 1 ...ence.jl; ...ract_call_gf; line: 726
+                                    +31 1 ...nce.jl; typeinf; line: 1550
+                                    +26 1 ...nce.jl; ...t_interpret; line: 1107
+                                    +27 1 ...ence.jl; abstract_eval; line: 935
+                                    +28 1 ...ence.jl; ...ct_eval_call; line: 878
+                                    +29 1 ...ence.jl; ...act_eval_arg; line: 866
+                                    +30 1 ...ence.jl; abstract_eval; line: 935
+                                    +31 1 ...ence.jl; ...ct_eval_call; line: 903
+                                    +32 1 ...ence.jl; abstract_call; line: 819
+                                    +33 1 ...ence.jl; ...ract_call_gf; line: 726
+                                    +34 1 ...nce.jl; typeinf; line: 1550
+                                    +25 3 ...nce.jl; typeinf; line: 1544
+                                    +26 3 ...nce.jl; inlining_pass; line: 2553
+                                    +27 3 ...nce.jl; inlining_pass; line: 2590
+                                    +28 1 ...nce.jl; inlining_pass; line: 2590
+                                    +29 1 ...nce.jl; inlining_pass; line: 2656
+                                    +30 1 ...nce.jl; inlineable; line: 2136
+                                    +31 1 ...nce.jl; typeinf; line: 1242
+                                    +28 1 ...nce.jl; inlining_pass; line: 2656
+                                    +29 1 ...nce.jl; inlineable; line: 2136
+                                    +30 1 ...nce.jl; typeinf; line: 1544
+                                    +31 1 ...nce.jl; inlining_pass; line: 2553
+                                    +32 1 ...nce.jl; inlining_pass; line: 2590
+                                    +33 1 ...nce.jl; inlining_pass; line: 2590
+                                    +34 1 ...nce.jl; inlining_pass; line: 2656
+                                    +35 1 ...nce.jl; inlineable; line: 2271
+                                    +36 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +37 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +38 1 ...nce.jl; ...lve_globals; line: 1839
+                                    +39 1 ...nce.jl; ...lve_globals; line: 1804
+                                    +40 1 ...nce.jl; ...ve_relative; line: 1777
+                                    +28 1 ...nce.jl; inlining_pass; line: 2671
+                                    +29 1 ...nce.jl; is_known_call; line: 2787
+                                    +30 1 ...ence.jl; isconstantfunc; line: 591
+                                    +31 1 ...ence.jl; _iisconst; line: 63
+                                    +25 1 ...nce.jl; typeinf; line: 1550
+                                     +5 1 ...nce.jl; typeinf; line: 1544
+                                     +6 1 ...nce.jl; inlining_pass; line: 2553
+                                     +7 1 ...nce.jl; inlining_pass; line: 2590
+                                     +8 1 ...nce.jl; inlining_pass; line: 2590
+                                     +9 1 ...nce.jl; inlining_pass; line: 2590
+                                    +10 1 ...nce.jl; inlining_pass; line: 2656
+                                    +11 1 ...nce.jl; inlineable; line: 2222
+                                     +5 1 ...nce.jl; typeinf; line: 1550
+                                   1  ...rence.jl; abstract_eval; line: 997
+                                 1  ...erence.jl; typeinf; line: 1429
+                                 1  ...erence.jl; typeinf; line: 1540
+                                  1 ...erence.jl; type_annotate; line: 1686
+                                   1 ...rence.jl; eval_annotate; line: 1658
+                                    1 ...rence.jl; eval_annotate; line: 1605
+                           2  ./inference.jl; typeinf; line: 1514
+                            1 ./inference.jl; stupdate; line: 1161
+                             1 ./inference.jl; stupdate; line: 1168
+                            1 ./inference.jl; stupdate; line: 1169
+                             1 ./inference.jl; tmerge; line: 0
+                           15 ./inference.jl; typeinf; line: 1544
+                            15 ./inference.jl; inlining_pass; line: 2553
+                             12 ...ference.jl; inlining_pass; line: 2590
+                              2 ...ference.jl; inlining_pass; line: 2590
+                               1 ...ference.jl; inlining_pass; line: 2590
+                                1 ...erence.jl; inlining_pass; line: 2656
+                                 1 ...erence.jl; inlineable; line: 2271
+                                  1 ...erence.jl; resolve_globals; line: 1839
+                                   1 ...rence.jl; resolve_globals; line: 1839
+                                    1 ...rence.jl; resolve_globals; line: 1839
+                                     1 ...ence.jl; resolve_globals; line: 1804
+                                      1 ...ence.jl; ...lve_relative; line: 1777
+                                       1 ...duce.jl; _mapreduce; line: 174
+                                        1 ...duce.jl; mapreduce_impl; line: 383
+                               1 ...ference.jl; inlining_pass; line: 2656
+                                1 ...erence.jl; inlineable; line: 2450
+                                 1 ...erence.jl; unique_name; line: 2749
+                                  1 ...erence.jl; contains_is1; line: 2726
+                              1 ...ference.jl; inlining_pass; line: 2652
+                               1 ./array.jl; getindex; line: 263
+                              9 ...ference.jl; inlining_pass; line: 2656
+                               1 ...ference.jl; inlineable; line: 2035
+                               3 ...ference.jl; inlineable; line: 2076
+                                3 ...lection.jl; _methods; line: 116
+                                 1 ...ection.jl; _methods; line: 99
+                                 2 ...ection.jl; _methods; line: 116
+                                  2 ...ection.jl; _methods; line: 99
+                               1 ...ference.jl; inlineable; line: 2256
+                                1 ...erence.jl; unique_name; line: 2749
+                                 1 ...erence.jl; contains_is1; line: 2726
+                               1 ...ference.jl; inlineable; line: 2386
+                                1 ...erence.jl; effect_free; line: 2010
+                                 1 ...erence.jl; effect_free; line: 1961
+                                  1 ...erence.jl; is_known_call_p; line: 2795
+                                   1 ...erence.jl; isconstantfunc; line: 591
+                                    1 ...erence.jl; is_global; line: 58
+                               1 ...ference.jl; inlineable; line: 2398
+                                1 ...erence.jl; unique_name; line: 2749
+                                 1 ...erence.jl; contains_is1; line: 2726
+                               2 ...ference.jl; inlineable; line: 2450
+                                2 ...erence.jl; unique_name; line: 2749
+                                 2 ...erence.jl; contains_is1; line: 2726
+                                  1 ./array.jl; getindex; line: 246
+                             1  ...ference.jl; inlining_pass; line: 2607
+                              1 ...ference.jl; effect_free; line: 1964
+                             2  ...ference.jl; inlining_pass; line: 2656
+                              1 ...ference.jl; inlineable; line: 2076
+                               1 ...lection.jl; _methods; line: 116
+                                1 ...lection.jl; _methods; line: 116
+                                 1 ...lection.jl; _methods; line: 99
+                              1 ...ference.jl; inlineable; line: 2142
+                           1  ./inference.jl; typeinf; line: 1548
+                            1 ./inference.jl; tuple_elim_pass; line: 2996
+                             1 ./inference.jl; unique_name; line: 2735
+                              1 ...ference.jl; contains_is1; line: 2726
+                      1  ./inference.jl; abstract_interpret; line: 1107
+                       1 ./inference.jl; abstract_eval; line: 935
+                        1 ./inference.jl; abstract_eval_call; line: 903
+                         1 ./inference.jl; abstract_call; line: 819
+                          1 ./inference.jl; abstract_call_gf; line: 726
+                           1 ./inference.jl; typeinf; line: 1409
+                            1 ./inference.jl; abstract_interpret; line: 1107
+                             1 ./inference.jl; abstract_eval; line: 935
+                              1 ./inference.jl; abstract_eval_call; line: 903
+                               1 ...ference.jl; abstract_call; line: 819
+                                1 ...ference.jl; abstract_call_gf; line: 726
+                                 1 ...erence.jl; typeinf; line: 1472
+                                  1 ...erence.jl; abstract_eval_arg; line: 866
+                                   1 ...erence.jl; abstract_eval; line: 935
+                                    1 ...rence.jl; ...ract_eval_call; line: 878
+                                     1 ...rence.jl; ...ract_eval_arg; line: 866
+                                      1 ...ence.jl; abstract_eval; line: 935
+                                       1 ...ence.jl; ...ct_eval_call; line: 903
+                                        1 ...ence.jl; abstract_call; line: 819
+                                     +1 1 ...ence.jl; ...ract_call_gf; line: 678
+                                     +2 1 ...tion.jl; _methods; line: 116
+                                     +3 1 ...tion.jl; _methods; line: 116
+                                     +4 1 ...tion.jl; _methods; line: 99
+                     1  ./inference.jl; typeinf; line: 1491
+                      1 ./inference.jl; tmerge; line: 1150
+                     1  ./inference.jl; typeinf; line: 1514
+                      1 ./inference.jl; stupdate; line: 1169
+                       1 ./inference.jl; tmerge; line: 1140
+               9  ./inference.jl; typeinf; line: 1544
+                9 ./inference.jl; inlining_pass; line: 2553
+                 8 ./inference.jl; inlining_pass; line: 2590
+                  1 ./inference.jl; inlining_pass; line: 2590
+                   1 ./inference.jl; inlining_pass; line: 2656
+                    1 ./inference.jl; inlineable; line: 2076
+                     1 ./reflection.jl; _methods; line: 116
+                      1 ./reflection.jl; _methods; line: 116
+                       1 ./reflection.jl; _methods; line: 99
+                  7 ./inference.jl; inlining_pass; line: 2656
+                   7 ./inference.jl; inlineable; line: 2136
+                    3 ./inference.jl; typeinf; line: 1409
+                     3 ./inference.jl; abstract_interpret; line: 1090
+                      3 ./inference.jl; abstract_eval; line: 935
+                       3 ./inference.jl; abstract_eval_call; line: 903
+                        3 ./inference.jl; abstract_call; line: 819
+                         3 ./inference.jl; abstract_call_gf; line: 726
+                          1 ./inference.jl; typeinf; line: 1409
+                           1 ./inference.jl; abstract_interpret; line: 1090
+                            1 ./inference.jl; abstract_eval; line: 935
+                             1 ./inference.jl; abstract_eval_call; line: 903
+                              1 ./inference.jl; abstract_call; line: 819
+                               1 ...ference.jl; abstract_call_gf; line: 678
+                                1 ...lection.jl; _methods; line: 116
+                                 1 ...lection.jl; _methods; line: 99
+                          2 ./inference.jl; typeinf; line: 1472
+                           2 ./inference.jl; abstract_eval_arg; line: 866
+                            2 ./inference.jl; abstract_eval; line: 935
+                             2 ./inference.jl; abstract_eval_call; line: 903
+                              2 ./inference.jl; abstract_call; line: 819
+                               2 ...ference.jl; abstract_call_gf; line: 726
+                                1 ...erence.jl; typeinf; line: 1298
+                                1 ...erence.jl; typeinf; line: 1399
+                    4 ./inference.jl; typeinf; line: 1544
+                     4 ./inference.jl; inlining_pass; line: 2553
+                      4 ./inference.jl; inlining_pass; line: 2590
+                       4 ./inference.jl; inlining_pass; line: 2656
+                        1 ./inference.jl; inlineable; line: 2136
+                         1 ./inference.jl; typeinf; line: 1472
+                          1 ./inference.jl; abstract_eval_arg; line: 866
+                           1 ./inference.jl; abstract_eval; line: 935
+                            1 ./inference.jl; abstract_eval_call; line: 903
+                             1 ./inference.jl; abstract_call; line: 819
+                              1 ./inference.jl; abstract_call_gf; line: 726
+                               1 ...ference.jl; typeinf; line: 1409
+                                1 ...erence.jl; abstract_interpret; line: 1107
+                                 1 ...erence.jl; abstract_eval; line: 935
+                                  1 ...erence.jl; abstract_eval_call; line: 878
+                                   1 ...erence.jl; abstract_eval_arg; line: 866
+                                    1 ...rence.jl; abstract_eval; line: 935
+                                     1 ...rence.jl; ...act_eval_call; line: 903
+                                      1 ...ence.jl; abstract_call; line: 819
+                                       1 ...ence.jl; ...ract_call_gf; line: 701
+                        3 ./inference.jl; inlineable; line: 2142
+                 1 ./inference.jl; inlining_pass; line: 2656
+                  1 ./inference.jl; inlineable; line: 2386
+                   1 ./inference.jl; effect_free; line: 2010
+                    1 ./inference.jl; effect_free; line: 1961
+                     1 ./inference.jl; is_known_call_p; line: 2795
+                      1 ./inference.jl; isconstantfunc; line: 556
+         2  ./inference.jl; typeinf; line: 1544
+          2 ./inference.jl; inlining_pass; line: 2553
+           2 ./inference.jl; inlining_pass; line: 2590
+            2 ./inference.jl; inlining_pass; line: 2656
+             1 ./inference.jl; inlineable; line: 2076
+              1 ./reflection.jl; _methods; line: 116
+               1 ./reflection.jl; _methods; line: 99
+             1 ./inference.jl; inlineable; line: 2142
+        63 .../JSON/src/Parser.jl; parse; line: 328
+         62 .../JSON/src/Parser.jl; parse_value; line: 229
+          62 ...JSON/src/Parser.jl; parse_object; line: 108
+           1  ...JSON/src/Parser.jl; parse_object; line: 118
+            1 ...JSON/src/Parser.jl; parse_string; line: 152
+           46 ...JSON/src/Parser.jl; parse_object; line: 120
+            46 ...SON/src/Parser.jl; parse_value; line: 229
+             14 ...SON/src/Parser.jl; parse_array; line: 86
+              14 ...SON/src/Parser.jl; parse_value; line: 229
+               1  ...SON/src/Parser.jl; parse_array; line: 83
+                1 ...SON/src/Parser.jl; chomp_space; line: 36
+               12 ...SON/src/Parser.jl; parse_array; line: 86
+                1 ...ON/src/Parser.jl; parse_value; line: 222
+                 1 ...ON/src/Parser.jl; chomp_space; line: 36
+                1 ...ON/src/Parser.jl; parse_value; line: 225
+                 1 ...ON/src/Parser.jl; charat; line: 26
+                9 ...ON/src/Parser.jl; parse_value; line: 227
+                 8 ...ON/src/Parser.jl; parse_number; line: 319
+                  1 ./string.jl; parseint_nocheck; line: 0
+                  5 ./string.jl; parseint_nocheck; line: 1569
+                   2 ./string.jl; parseint_nocheck; line: 1531
+                    1 ./string.jl; parseint_preamble; line: 1502
+                     1 ./string.jl; parseint_next; line: 1498
+                   1 ./string.jl; parseint_nocheck; line: 1532
+                    1 ./string.jl; parseint_next; line: 1498
+                     1 ./string.jl; next; line: 0
+                   2 ./string.jl; parseint_nocheck; line: 1548
+                    2 ./string.jl; next; line: 619
+                 1 ...ON/src/Parser.jl; parse_string; line: 201
+                  1 ./string.jl; bytestring; line: 34
+                1 ...ON/src/Parser.jl; parse_value; line: 231
+               1  ...SON/src/Parser.jl; parse_array; line: 87
+             1  ...SON/src/Parser.jl; parse_array; line: 92
+             31 ...SON/src/Parser.jl; parse_object; line: 108
+              7  ...SON/src/Parser.jl; parse_object; line: 118
+               7 ...SON/src/Parser.jl; parse_string; line: 195
+                7 ./io.jl; write; line: 68
+                 1 ./iobuffer.jl; write; line: 265
+                 6 ./iobuffer.jl; write; line: 267
+                  1 ./iobuffer.jl; ensureroom; line: 0
+                  5 ./iobuffer.jl; ensureroom; line: 182
+                   4 ./array.jl; resize!; line: 506
+              8  ...SON/src/Parser.jl; parse_object; line: 120
+               1 ...SON/src/Parser.jl; parse_value; line: 222
+                1 ...SON/src/Parser.jl; chomp_space; line: 38
+                 1 ...ON/src/Parser.jl; charat; line: 26
+               7 ...SON/src/Parser.jl; parse_value; line: 229
+                7 ...SON/src/Parser.jl; parse_array; line: 86
+                 1 ...ON/src/Parser.jl; parse_value; line: 222
+                  1 ...ON/src/Parser.jl; chomp_space; line: 35
+                   1 ...N/src/Parser.jl; charat; line: 26
+                 3 ...ON/src/Parser.jl; parse_value; line: 227
+                  1 ...N/src/Parser.jl; parse_number; line: 313
+                   1 ./string.jl; SubString; line: 585
+                  2 ...N/src/Parser.jl; parse_number; line: 319
+                   2 ./string.jl; parseint_nocheck; line: 1569
+                    1 ./string.jl; parseint_nocheck; line: 1542
+                    1 ./string.jl; parseint_nocheck; line: 1560
+                 3 ...ON/src/Parser.jl; parse_value; line: 229
+                  3 ...ON/src/Parser.jl; parse_array; line: 86
+                   3 ...N/src/Parser.jl; parse_value; line: 229
+                    3 ...N/src/Parser.jl; parse_array; line: 86
+                     2 .../src/Parser.jl; parse_value; line: 227
+                      2 .../src/Parser.jl; parse_number; line: 319
+                       2 ./string.jl; parseint_nocheck; line: 1569
+                        1 ./string.jl; parseint_nocheck; line: 1548
+                         1 ./string.jl; next; line: 616
+                        1 ./string.jl; parseint_nocheck; line: 1549
+              16 ...SON/src/Parser.jl; parse_object; line: 121
+               7 ./inference.jl; typeinf_ext; line: 1216
+                5 ./inference.jl; typeinf; line: 1409
+                 5 ./inference.jl; abstract_interpret; line: 1107
+                  5 ./inference.jl; abstract_eval; line: 935
+                   5 ./inference.jl; abstract_eval_call; line: 903
+                    5 ./inference.jl; abstract_call; line: 819
+                     1 ./inference.jl; abstract_call_gf; line: 722
+                      1 ./no file; anonymous; line: 626
+                     4 ./inference.jl; abstract_call_gf; line: 726
+                      1 ./inference.jl; typeinf; line: 1409
+                       1 ./inference.jl; abstract_interpret; line: 1107
+                        1 ./inference.jl; abstract_eval; line: 935
+                         1 ./inference.jl; abstract_eval_call; line: 878
+                          1 ./inference.jl; abstract_eval_arg; line: 866
+                           1 ./inference.jl; abstract_eval; line: 935
+                            1 ./inference.jl; abstract_eval_call; line: 903
+                             1 ./inference.jl; abstract_call; line: 819
+                              1 ./inference.jl; abstract_call_gf; line: 678
+                               1 ...lection.jl; _methods; line: 116
+                                1 ...lection.jl; _methods; line: 116
+                                 1 ...lection.jl; _methods; line: 99
+                      1 ./inference.jl; typeinf; line: 1544
+                       1 ./inference.jl; inlining_pass; line: 2553
+                        1 ./inference.jl; inlining_pass; line: 2590
+                         1 ./inference.jl; inlining_pass; line: 2656
+                          1 ./inference.jl; inlineable; line: 2076
+                           1 ./base.jl; cell_1d; line: 161
+                      1 ./inference.jl; typeinf; line: 1550
+                      1 ./inference.jl; typeinf; line: 1560
+                1 ./inference.jl; typeinf; line: 1544
+                 1 ./inference.jl; inlining_pass; line: 2553
+                  1 ./inference.jl; inlining_pass; line: 2590
+                   1 ./inference.jl; inlining_pass; line: 2656
+                    1 ./inference.jl; inlineable; line: 2136
+                     1 ./inference.jl; typeinf; line: 1242
+                1 ./inference.jl; typeinf; line: 1550
+               1 dict.jl; setindex!; line: 553
+                1 dict.jl; ht_keyindex2; line: 527
+                 1 dict.jl; rehash; line: 419
+           14 ...JSON/src/Parser.jl; parse_object; line: 121
+            7 ./inference.jl; typeinf_ext; line: 1216
+             5 ./inference.jl; typeinf; line: 1409
+              5 ./inference.jl; abstract_interpret; line: 1107
+               5 ./inference.jl; abstract_eval; line: 935
+                5 ./inference.jl; abstract_eval_call; line: 903
+                 5 ./inference.jl; abstract_call; line: 819
+                  1 ./inference.jl; abstract_call_gf; line: 722
+                   1 ./no file; anonymous; line: 626
+                  4 ./inference.jl; abstract_call_gf; line: 726
+                   1 ./inference.jl; typeinf; line: 1409
+                    1 ./inference.jl; abstract_interpret; line: 1107
+                     1 ./inference.jl; abstract_eval; line: 935
+                      1 ./inference.jl; abstract_eval_call; line: 878
+                       1 ./inference.jl; abstract_eval_arg; line: 866
+                        1 ./inference.jl; abstract_eval; line: 935
+                         1 ./inference.jl; abstract_eval_call; line: 903
+                          1 ./inference.jl; abstract_call; line: 819
+                           1 ./inference.jl; abstract_call_gf; line: 678
+                            1 ...flection.jl; _methods; line: 116
+                             1 ...flection.jl; _methods; line: 116
+                              1 ...flection.jl; _methods; line: 99
+                   1 ./inference.jl; typeinf; line: 1544
+                    1 ./inference.jl; inlining_pass; line: 2553
+                     1 ./inference.jl; inlining_pass; line: 2590
+                      1 ./inference.jl; inlining_pass; line: 2656
+                       1 ./inference.jl; inlineable; line: 2076
+                        1 ./reflection.jl; _methods; line: 116
+                         1 ./reflection.jl; _methods; line: 99
+                   2 ./inference.jl; typeinf; line: 1550
+             1 ./inference.jl; typeinf; line: 1544
+              1 ./inference.jl; inlining_pass; line: 2553
+               1 ./inference.jl; inlining_pass; line: 2590
+                1 ./inference.jl; inlining_pass; line: 2656
+                 1 ./inference.jl; inlineable; line: 2076
+             1 ./inference.jl; typeinf; line: 1550
+           1  ...JSON/src/Parser.jl; parse_string; line: 148
+       2     ...a_test2_parallel.jl; checkSegment; line: 23
+        1 ./inference.jl; typeinf_ext; line: 1216
+         1 ./inference.jl; typeinf; line: 1550
+       2     ...a_test2_parallel.jl; checkSegment; line: 25
+       3     ...a_test2_parallel.jl; checkSegment; line: 31
+        2 ./string.jl; write; line: 598
+         1 ./string.jl; next; line: 0
+         1 ./string.jl; next; line: 619
+     3     ...a_test2_parallel.jl; processOneFile; line: 143
+      1 ./io.jl; write; line: 68
+       1 ./iobuffer.jl; ensureroom; line: 182
+      1 ./iobuffer.jl; write; line: 237
+6     ...uests/src/Requests.jl; on_body; line: 147
+ 1 base.jl; convert; line: 13
+3     ...uests/src/Requests.jl; on_header_field; line: 114
+5     ...uests/src/Requests.jl; on_header_field; line: 115
+1     ...uests/src/Requests.jl; on_header_field; line: 116
+ 1 dict.jl; setindex!; line: 553
+  1 dict.jl; ht_keyindex2; line: 516
+4     ...uests/src/Requests.jl; on_header_value; line: 123
+ 1 dict.jl; ht_keyindex; line: 474
+ 2 dict.jl; setindex!; line: 553
+  1 dict.jl; ht_keyindex2; line: 516
+  1 dict.jl; ht_keyindex2; line: 527
+1     ...uests/src/Requests.jl; on_header_value; line: 124
+ 1 dict.jl; setindex!; line: 553
+  1 dict.jl; ht_keyindex2; line: 500
+4     ...uests/src/Requests.jl; on_headers_complete; line: 137
+ 1 dict.jl; setindex!; line: 548
+  1 ./string.jl; ==; line: 528
+   1 ./array.jl; lexcmp; line: 841
+ 3 dict.jl; setindex!; line: 559
+  3 dict.jl; _setindex!; line: 542
+   1 dict.jl; rehash; line: 409
+    1 ./array.jl; zeros; line: 169
+   2 dict.jl; rehash; line: 419
+    1 ./string.jl; hash; line: 675
+     1 ./array.jl; sizeof; line: 0
+1     ...uests/src/Requests.jl; on_message_complete; line: 155
+1     ...uests/src/Requests.jl; on_status_complete; line: 103
