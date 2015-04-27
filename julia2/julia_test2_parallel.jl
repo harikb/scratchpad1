@@ -38,7 +38,7 @@ function processOneLine(userid, segmentid, idPair, fp)
     return checkSegment(userid, segmentid, id1, id2, fp)
 end
 
-function processOneFile(userid, segmentid, filename) 
+function processOneFile(userid, segmentid, filename, sampleLines) 
 
     np = nprocs()
     jump = np - 1
@@ -59,6 +59,9 @@ function processOneFile(userid, segmentid, filename)
             write(fp, @sprintf("Process %d is processing line %d\n", selfid, lnum))
             processOneLine(userid, segmentid, l, fp)
             offset += jump
+        end
+        if ((sampleLines != 0) && (lnum >= sampleLines))
+            break
         end
     end
 end

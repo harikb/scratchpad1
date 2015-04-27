@@ -24,5 +24,15 @@ if (np > 1)
         end
     end
 else
-    processOneFile(3085, 35649, filename)
+    processOneFile(3085, 35649, filename, 100) # Sample 100 lines to warm up JIT
+    println("Profile run")
+    @profile processOneFile(3085, 35649, filename, 0)
+    Profile.print()
+    #=
+    bt, lidict = Profile.retrieve()
+    println("Profiling done")
+    for (k,v) in lidict
+        println(v)
+    end
+    =#
 end
